@@ -53,7 +53,7 @@ namespace SquadHub
 
         private void btPublicar_Click(object sender, EventArgs e)
         {
-            if (boxImagem.Image != null && !string.IsNullOrEmpty(txtLegenda.Text))
+            if (boxImagem.Image != null)
             {
                 Image imagem = boxImagem.Image;
                 string legenda = txtLegenda.Text;
@@ -70,15 +70,13 @@ namespace SquadHub
                 boxImagem.Image = null;
                 txtLegenda.Clear();
 
-                MessageBox.Show("Publicação realizada com sucesso!");
-
                 TelaPrincipal telaPrincipal = new TelaPrincipal(usuarioLogado, usuarioLogadoIndex);
                 telaPrincipal.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Por favor, selecione uma imagem e insira uma legenda antes de publicar.");
+                MessageBox.Show("Por favor, selecione uma imagem antes de publicar.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -30,7 +30,6 @@ namespace SquadHub
         private void InitializeComponent()
         {
             this.btTelaConfig = new System.Windows.Forms.Button();
-            this.btTelaPerfil = new System.Windows.Forms.Button();
             this.btTelaPessoasConectadas = new System.Windows.Forms.Button();
             this.btTelaNovaPublicacao = new System.Windows.Forms.Button();
             this.pictureBoxImagem = new System.Windows.Forms.PictureBox();
@@ -46,8 +45,11 @@ namespace SquadHub
             this.labelComentario = new System.Windows.Forms.Label();
             this.txtComentario = new System.Windows.Forms.TextBox();
             this.btEnviarComentario = new System.Windows.Forms.Button();
+            this.pictureBoxFotoPerfil = new System.Windows.Forms.PictureBox();
+            this.labelNickname = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilPublicacao)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfil)).BeginInit();
             this.SuspendLayout();
             // 
             // btTelaConfig
@@ -64,21 +66,6 @@ namespace SquadHub
             this.btTelaConfig.TabIndex = 0;
             this.btTelaConfig.UseVisualStyleBackColor = false;
             this.btTelaConfig.Click += new System.EventHandler(this.btConfig_Click);
-            // 
-            // btTelaPerfil
-            // 
-            this.btTelaPerfil.BackColor = System.Drawing.Color.Transparent;
-            this.btTelaPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btTelaPerfil.FlatAppearance.BorderSize = 0;
-            this.btTelaPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btTelaPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btTelaPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btTelaPerfil.Location = new System.Drawing.Point(89, 74);
-            this.btTelaPerfil.Name = "btTelaPerfil";
-            this.btTelaPerfil.Size = new System.Drawing.Size(128, 29);
-            this.btTelaPerfil.TabIndex = 1;
-            this.btTelaPerfil.UseVisualStyleBackColor = false;
-            this.btTelaPerfil.Click += new System.EventHandler(this.btTelaPerfil_Click);
             // 
             // btTelaPessoasConectadas
             // 
@@ -161,7 +148,7 @@ namespace SquadHub
             // 
             // pictureBoxFotoPerfilPublicacao
             // 
-            this.pictureBoxFotoPerfilPublicacao.Location = new System.Drawing.Point(331, 194);
+            this.pictureBoxFotoPerfilPublicacao.Location = new System.Drawing.Point(331, 193);
             this.pictureBoxFotoPerfilPublicacao.Name = "pictureBoxFotoPerfilPublicacao";
             this.pictureBoxFotoPerfilPublicacao.Size = new System.Drawing.Size(35, 35);
             this.pictureBoxFotoPerfilPublicacao.TabIndex = 10;
@@ -172,7 +159,7 @@ namespace SquadHub
             this.labelNicknamePublicacao.AutoSize = true;
             this.labelNicknamePublicacao.BackColor = System.Drawing.Color.Transparent;
             this.labelNicknamePublicacao.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelNicknamePublicacao.Location = new System.Drawing.Point(375, 207);
+            this.labelNicknamePublicacao.Location = new System.Drawing.Point(375, 206);
             this.labelNicknamePublicacao.Name = "labelNicknamePublicacao";
             this.labelNicknamePublicacao.Size = new System.Drawing.Size(0, 17);
             this.labelNicknamePublicacao.TabIndex = 11;
@@ -260,12 +247,31 @@ namespace SquadHub
             this.btEnviarComentario.UseVisualStyleBackColor = false;
             this.btEnviarComentario.Click += new System.EventHandler(this.btEnviarComentario_Click);
             // 
+            // pictureBoxFotoPerfil
+            // 
+            this.pictureBoxFotoPerfil.Location = new System.Drawing.Point(81, 39);
+            this.pictureBoxFotoPerfil.Name = "pictureBoxFotoPerfil";
+            this.pictureBoxFotoPerfil.Size = new System.Drawing.Size(72, 65);
+            this.pictureBoxFotoPerfil.TabIndex = 19;
+            this.pictureBoxFotoPerfil.TabStop = false;
+            // 
+            // labelNickname
+            // 
+            this.labelNickname.AutoSize = true;
+            this.labelNickname.Location = new System.Drawing.Point(159, 56);
+            this.labelNickname.Name = "labelNickname";
+            this.labelNickname.Size = new System.Drawing.Size(34, 15);
+            this.labelNickname.TabIndex = 20;
+            this.labelNickname.Text = "Nick:";
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL1;
             this.ClientSize = new System.Drawing.Size(1234, 700);
+            this.Controls.Add(this.labelNickname);
+            this.Controls.Add(this.pictureBoxFotoPerfil);
             this.Controls.Add(this.btEnviarComentario);
             this.Controls.Add(this.txtComentario);
             this.Controls.Add(this.labelComentario);
@@ -281,13 +287,13 @@ namespace SquadHub
             this.Controls.Add(this.pictureBoxImagem);
             this.Controls.Add(this.btTelaNovaPublicacao);
             this.Controls.Add(this.btTelaPessoasConectadas);
-            this.Controls.Add(this.btTelaPerfil);
             this.Controls.Add(this.btTelaConfig);
             this.Name = "TelaPrincipal";
             this.Text = "TelaPrincipal";
             this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilPublicacao)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,7 +302,6 @@ namespace SquadHub
         #endregion
 
         private System.Windows.Forms.Button btTelaConfig;
-        private System.Windows.Forms.Button btTelaPerfil;
         private System.Windows.Forms.Button btTelaPessoasConectadas;
         private System.Windows.Forms.Button btTelaNovaPublicacao;
         private System.Windows.Forms.PictureBox pictureBoxImagem;
@@ -312,5 +317,7 @@ namespace SquadHub
         private System.Windows.Forms.Label labelComentario;
         private System.Windows.Forms.TextBox txtComentario;
         private System.Windows.Forms.Button btEnviarComentario;
+        private System.Windows.Forms.PictureBox pictureBoxFotoPerfil;
+        private System.Windows.Forms.Label labelNickname;
     }
 }

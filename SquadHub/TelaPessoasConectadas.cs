@@ -28,18 +28,15 @@ namespace SquadHub
 
             foreach (Usuario usuario in listaUsuarios.Usuarios)
             {
-                ListViewItem item = new ListViewItem(usuario.Nome);
+                ListViewItem item = new ListViewItem(usuario.Nickname);
 
-                /*
-                item.SubItems.Add(usuario.Idade.ToString());
-                item.SubItems.Add(usuario.Email);
-                */
+                item.Tag = usuario;
+
+                item.SubItems.Add(usuario.Nickname);
 
                 listViewUsuarios.Items.Add(item);
             }
         }
-
-
 
         private void btEnviarSolicitacao_Click(object sender, EventArgs e)
         {

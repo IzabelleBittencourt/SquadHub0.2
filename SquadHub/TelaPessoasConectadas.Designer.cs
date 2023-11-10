@@ -51,7 +51,7 @@ namespace SquadHub
             // 
             // Usuários
             // 
-            this.Usuários.Text = "Nomes";
+            this.Usuários.Text = "Usuários";
             // 
             // btEnviarSolicitacao
             // 

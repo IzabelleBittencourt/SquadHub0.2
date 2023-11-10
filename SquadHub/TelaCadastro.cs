@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace SquadHub
 {
@@ -48,6 +49,12 @@ namespace SquadHub
             if (idade <= 10)
             {
                 MessageBox.Show("Você precisa ter mais de 10 anos para se cadastrar.");
+                return;
+            }
+
+            if (ListaUsuarios.Instance.Usuarios.Any(busca => busca.Email == email))
+            {
+                MessageBox.Show("Este email já está cadastrado no sistema.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

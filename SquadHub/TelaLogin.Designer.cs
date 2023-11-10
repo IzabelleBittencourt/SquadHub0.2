@@ -130,7 +130,6 @@ namespace SquadHub
             this.Controls.Add(this.btTelaCad);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "TelaLogin";
-            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

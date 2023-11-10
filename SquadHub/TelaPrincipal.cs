@@ -64,13 +64,6 @@ namespace SquadHub
             this.Hide();
         }
 
-        private void btTelaPerfil_Click(object sender, EventArgs e)
-        {
-            TelaPerfil telaPerfil = new TelaPerfil(usuarioLogado, usuarioLogadoIndex);
-            telaPerfil.Show();
-            this.Hide();
-        }
-
         private void btTelaPessoasConectadas_Click(object sender, EventArgs e)
         {
             TelaPessoasConectadas telaPessoasConectadas = new TelaPessoasConectadas(usuarioLogado, usuarioLogadoIndex);
@@ -87,6 +80,15 @@ namespace SquadHub
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
+            if (usuarioLogadoIndex >= 0 && usuarioLogadoIndex < ListaUsuarios.Instance.Usuarios.Count)
+            {
+                Usuario usuario = ListaUsuarios.Instance.Usuarios[usuarioLogadoIndex];
+
+                pictureBoxFotoPerfil.Image = usuario.FotoPerfil;
+                labelNickname.Text = " " + usuario.Nickname;
+                pictureBoxFotoPerfil.SizeMode = PictureBoxSizeMode.Zoom;
+            }
+
             if (ListaPublicacoes.Instance.Publicacoes.Count > 0)
             {
                 pictureBoxImagem.Visible = true;
@@ -134,6 +136,15 @@ namespace SquadHub
                 btProximaPublicacao.Visible = false;
                 btPublicacaoAnterior.Visible = false;
             }
+
+            pictureBoxFotoPerfil.Click += PictureBoxPerfil_Click;
+        }
+
+        private void PictureBoxPerfil_Click(object sender, EventArgs e)
+        {
+            TelaPerfil telaPerfil = new TelaPerfil(usuarioLogado, usuarioLogadoIndex);
+            telaPerfil.Show();
+            this.Hide();
         }
 
         private void btProximaPublicacao_Click(object sender, EventArgs e)
@@ -226,7 +237,7 @@ namespace SquadHub
         {
             if (publicacaoExibida != null)
             {
-                labelComentario.Text = " ";
+                labelComentario.Text = "";
 
                 foreach (Comentario comentario in publicacaoExibida.Comentarios)
                 {

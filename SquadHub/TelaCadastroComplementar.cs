@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace SquadHub
 {
@@ -16,6 +17,8 @@ namespace SquadHub
         {
             InitializeComponent();
             this.usuario = usuario;
+
+            txtNickname.TextChanged += txtNickname_TextChanged;
         }
 
         private void LimparCampos()
@@ -23,6 +26,18 @@ namespace SquadHub
             txtNickname.Clear();
             boxFotoPerfil.Image = null;
             txtBiografia.Clear();
+        }
+
+        private void txtNickname_TextChanged(object sender, EventArgs e)
+        {
+            txtNickname.Text = txtNickname.Text.Replace(" ", "");
+
+            if (!txtNickname.Text.StartsWith("@"))
+            {
+                txtNickname.Text = "@" + txtNickname.Text;
+            }
+
+            txtNickname.SelectionStart = txtNickname.Text.Length;
         }
 
         private void btCadastrar_Click(object sender, EventArgs e)
@@ -34,6 +49,12 @@ namespace SquadHub
             if (string.IsNullOrWhiteSpace(nickname) || fotoPerfil == null)
             {
                 MessageBox.Show("Por favor, escolha um nickname e uma foto de perfil!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (ListaUsuarios.Instance.Usuarios.Any(busca => busca.Nickname == nickname))
+            {
+                MessageBox.Show("Já existe um usuário com esse nickname. Por favor, escolha outro.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
