@@ -38,11 +38,6 @@ namespace SquadHub
             }
         }
 
-        private void btEnviarSolicitacao_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void listViewUsuarios_SelectedIndexChanged(object sender, EventArgs e)
         {
 

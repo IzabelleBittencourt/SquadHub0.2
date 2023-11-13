@@ -35,6 +35,7 @@ namespace SquadHub
             this.lblNicknamePerfil = new System.Windows.Forms.Label();
             this.lblBiografiaPerfil = new System.Windows.Forms.Label();
             this.boxFotoPerfil = new System.Windows.Forms.PictureBox();
+            this.btTelaEditarDados = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,12 +105,23 @@ namespace SquadHub
             this.boxFotoPerfil.TabIndex = 7;
             this.boxFotoPerfil.TabStop = false;
             // 
+            // btTelaEditarDados
+            // 
+            this.btTelaEditarDados.Location = new System.Drawing.Point(1045, 115);
+            this.btTelaEditarDados.Name = "btTelaEditarDados";
+            this.btTelaEditarDados.Size = new System.Drawing.Size(69, 63);
+            this.btTelaEditarDados.TabIndex = 8;
+            this.btTelaEditarDados.Text = "Edite seus dados";
+            this.btTelaEditarDados.UseVisualStyleBackColor = true;
+            this.btTelaEditarDados.Click += new System.EventHandler(this.btTelaEditarDados_Click);
+            // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL;
             this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.Controls.Add(this.btTelaEditarDados);
             this.Controls.Add(this.boxFotoPerfil);
             this.Controls.Add(this.lblBiografiaPerfil);
             this.Controls.Add(this.lblNicknamePerfil);
@@ -133,5 +145,6 @@ namespace SquadHub
         private System.Windows.Forms.Label lblNicknamePerfil;
         private System.Windows.Forms.Label lblBiografiaPerfil;
         private System.Windows.Forms.PictureBox boxFotoPerfil;
+        private System.Windows.Forms.Button btTelaEditarDados;
     }
 }

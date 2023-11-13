@@ -41,5 +41,12 @@ namespace SquadHub
             telaPrincipal.Show();
             this.Hide();
         }
+
+        private void btTelaEditarDados_Click(object sender, EventArgs e)
+        {
+            TelaEditarDados telaEditarDados = new TelaEditarDados(usuarioLogado, usuarioLogadoIndex);
+            telaEditarDados.Show();
+            this.Hide();
+        }
     }
 }

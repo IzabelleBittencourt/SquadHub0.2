@@ -30,7 +30,7 @@ namespace SquadHub
 
         private void txtNickname_TextChanged(object sender, EventArgs e)
         {
-            txtNickname.Text = txtNickname.Text.Replace(" ", "");
+            txtNickname.Text = txtNickname.Text.Replace(" ", "_");
 
             if (!txtNickname.Text.StartsWith("@"))
             {

@@ -31,7 +31,6 @@ namespace SquadHub
         {
             this.listViewUsuarios = new System.Windows.Forms.ListView();
             this.Usuários = new System.Windows.Forms.ColumnHeader();
-            this.btEnviarSolicitacao = new System.Windows.Forms.Button();
             this.btVoltarTelaPrincipal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -52,16 +51,6 @@ namespace SquadHub
             // Usuários
             // 
             this.Usuários.Text = "Usuários";
-            // 
-            // btEnviarSolicitacao
-            // 
-            this.btEnviarSolicitacao.Location = new System.Drawing.Point(870, 577);
-            this.btEnviarSolicitacao.Name = "btEnviarSolicitacao";
-            this.btEnviarSolicitacao.Size = new System.Drawing.Size(92, 46);
-            this.btEnviarSolicitacao.TabIndex = 1;
-            this.btEnviarSolicitacao.Text = "Enviar pedido de amizade";
-            this.btEnviarSolicitacao.UseVisualStyleBackColor = true;
-            this.btEnviarSolicitacao.Click += new System.EventHandler(this.btEnviarSolicitacao_Click);
             // 
             // btVoltarTelaPrincipal
             // 
@@ -85,7 +74,6 @@ namespace SquadHub
             this.BackgroundImage = global::SquadHub.Properties.Resources.USUÁRIOS;
             this.ClientSize = new System.Drawing.Size(1234, 661);
             this.Controls.Add(this.btVoltarTelaPrincipal);
-            this.Controls.Add(this.btEnviarSolicitacao);
             this.Controls.Add(this.listViewUsuarios);
             this.Name = "TelaPessoasConectadas";
             this.Text = "TelaPessoasConectadas";
@@ -98,7 +86,6 @@ namespace SquadHub
 
         private System.Windows.Forms.ListView listViewUsuarios;
         private System.Windows.Forms.ColumnHeader Usuários;
-        private System.Windows.Forms.Button btEnviarSolicitacao;
         private System.Windows.Forms.Button btVoltarTelaPrincipal;
     }
 }
