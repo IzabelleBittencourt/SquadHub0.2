@@ -164,3 +164,5 @@ C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netc
 C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.pdb
 C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.genruntimeconfig.cache
 C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaEditarDados.resources
+C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaNotificacoes.resources
+C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaAmigos.resources

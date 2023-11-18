@@ -29,28 +29,12 @@ namespace SquadHub
         /// </summary>
         private void InitializeComponent()
         {
-            this.listViewUsuarios = new System.Windows.Forms.ListView();
-            this.Usuários = new System.Windows.Forms.ColumnHeader();
             this.btVoltarTelaPrincipal = new System.Windows.Forms.Button();
+            this.pictureBoxFotoPerfilUsuarios = new System.Windows.Forms.PictureBox();
+            this.lblNicknameUsuarios = new System.Windows.Forms.Label();
+            this.btSolicitarAmizade = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilUsuarios)).BeginInit();
             this.SuspendLayout();
-            // 
-            // listViewUsuarios
-            // 
-            this.listViewUsuarios.BackColor = System.Drawing.Color.White;
-            this.listViewUsuarios.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.Usuários});
-            this.listViewUsuarios.HideSelection = false;
-            this.listViewUsuarios.Location = new System.Drawing.Point(273, 146);
-            this.listViewUsuarios.Name = "listViewUsuarios";
-            this.listViewUsuarios.Size = new System.Drawing.Size(703, 488);
-            this.listViewUsuarios.TabIndex = 0;
-            this.listViewUsuarios.UseCompatibleStateImageBehavior = false;
-            this.listViewUsuarios.View = System.Windows.Forms.View.Details;
-            this.listViewUsuarios.SelectedIndexChanged += new System.EventHandler(this.listViewUsuarios_SelectedIndexChanged);
-            // 
-            // Usuários
-            // 
-            this.Usuários.Text = "Usuários";
             // 
             // btVoltarTelaPrincipal
             // 
@@ -67,25 +51,59 @@ namespace SquadHub
             this.btVoltarTelaPrincipal.UseVisualStyleBackColor = false;
             this.btVoltarTelaPrincipal.Click += new System.EventHandler(this.btVoltarTelaPrincipal_Click);
             // 
+            // pictureBoxFotoPerfilUsuarios
+            // 
+            this.pictureBoxFotoPerfilUsuarios.Location = new System.Drawing.Point(283, 175);
+            this.pictureBoxFotoPerfilUsuarios.Name = "pictureBoxFotoPerfilUsuarios";
+            this.pictureBoxFotoPerfilUsuarios.Size = new System.Drawing.Size(61, 49);
+            this.pictureBoxFotoPerfilUsuarios.TabIndex = 3;
+            this.pictureBoxFotoPerfilUsuarios.TabStop = false;
+            this.pictureBoxFotoPerfilUsuarios.Visible = false;
+            // 
+            // lblNicknameUsuarios
+            // 
+            this.lblNicknameUsuarios.AutoSize = true;
+            this.lblNicknameUsuarios.Location = new System.Drawing.Point(350, 194);
+            this.lblNicknameUsuarios.Name = "lblNicknameUsuarios";
+            this.lblNicknameUsuarios.Size = new System.Drawing.Size(34, 15);
+            this.lblNicknameUsuarios.TabIndex = 4;
+            this.lblNicknameUsuarios.Text = "Nick:";
+            this.lblNicknameUsuarios.Visible = false;
+            // 
+            // btSolicitarAmizade
+            // 
+            this.btSolicitarAmizade.Location = new System.Drawing.Point(510, 188);
+            this.btSolicitarAmizade.Name = "btSolicitarAmizade";
+            this.btSolicitarAmizade.Size = new System.Drawing.Size(120, 26);
+            this.btSolicitarAmizade.TabIndex = 5;
+            this.btSolicitarAmizade.Text = "Enviar Solicitação";
+            this.btSolicitarAmizade.UseVisualStyleBackColor = true;
+            this.btSolicitarAmizade.Visible = false;
+            this.btSolicitarAmizade.Click += new System.EventHandler(this.btSolicitarAmizade_Click);
+            // 
             // TelaPessoasConectadas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.USUÁRIOS;
             this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.Controls.Add(this.btSolicitarAmizade);
+            this.Controls.Add(this.lblNicknameUsuarios);
+            this.Controls.Add(this.pictureBoxFotoPerfilUsuarios);
             this.Controls.Add(this.btVoltarTelaPrincipal);
-            this.Controls.Add(this.listViewUsuarios);
             this.Name = "TelaPessoasConectadas";
             this.Text = "TelaPessoasConectadas";
             this.Load += new System.EventHandler(this.TelaPessoasConectadas_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilUsuarios)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView listViewUsuarios;
-        private System.Windows.Forms.ColumnHeader Usuários;
         private System.Windows.Forms.Button btVoltarTelaPrincipal;
+        private System.Windows.Forms.PictureBox pictureBoxFotoPerfilUsuarios;
+        private System.Windows.Forms.Label lblNicknameUsuarios;
+        private System.Windows.Forms.Button btSolicitarAmizade;
     }
 }

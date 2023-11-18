@@ -241,9 +241,23 @@ namespace SquadHub
 
                 foreach (Comentario comentario in publicacaoExibida.Comentarios)
                 {
-                    labelComentario.Text += $"- {comentario.Autor.Nickname}: {comentario.Texto}\n";
+                    labelComentario.Text += $"{comentario.Autor.Nickname}: {comentario.Texto}\n";
                 }
             }
+        }
+
+        private void btTelaNotificacoes_Click(object sender, EventArgs e)
+        {
+            TelaNotificacoes telaNotificacoes = new TelaNotificacoes(usuarioLogado, usuarioLogadoIndex);
+            telaNotificacoes.Show();
+            this.Hide();
+        }
+
+        private void btTelaAmigos_Click(object sender, EventArgs e)
+        {
+            TelaAmigos telaAmigos = new TelaAmigos(usuarioLogado, usuarioLogadoIndex);
+            telaAmigos.Show();
+            this.Hide();
         }
     }
 }
