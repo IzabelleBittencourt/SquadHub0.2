@@ -80,6 +80,11 @@ namespace SquadHub
 
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
+            foreach (Publicacao publicacao in ListaPublicacoes.Instance.Publicacoes)
+            {
+                publicacao.Autor.Publicacoes.Add(publicacao);
+            }
+
             if (usuarioLogadoIndex >= 0 && usuarioLogadoIndex < ListaUsuarios.Instance.Usuarios.Count)
             {
                 Usuario usuario = ListaUsuarios.Instance.Usuarios[usuarioLogadoIndex];

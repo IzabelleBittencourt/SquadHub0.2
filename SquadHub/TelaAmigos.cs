@@ -55,8 +55,46 @@ namespace SquadHub
 
                 this.Controls.Add(novoLabel);
 
+                Button novoBotaoChat = new Button();
+                novoBotaoChat.Text = "Abrir Chat";
+                novoBotaoChat.Size = new Size(80, 30);
+                novoBotaoChat.Location = new Point(novoLabel.Location.X + novoLabel.Width + 5, posY);
+                novoBotaoChat.Tag = amigoUsuario;
+                novoBotaoChat.Click += btAbrirChat_Click;
+
+                this.Controls.Add(novoBotaoChat);
+
                 posY += novoPictureBox.Height + 5;
             }
+        }
+
+        private void btAbrirChat_Click(object sender, EventArgs e)
+        {
+            Button botao = sender as Button;
+            if (botao != null)
+            {
+                Usuario amigoUsuario = botao.Tag as Usuario;
+
+                if (amigoUsuario != null)
+                {
+                    AbrirTelaChat(usuarioLogado, amigoUsuario);
+                }
+            }
+        }
+
+        private void AbrirTelaChat(Usuario usuarioLogado, Usuario amigo)
+        {
+            string chaveConversa = $"{usuarioLogado.Indice}-{amigo.Indice}";
+
+            if (!ListaMensagens.Instance.Conversas.ContainsKey(chaveConversa))
+            {
+                ListaMensagens.Instance.Conversas[chaveConversa] = new Conversa(amigo);
+            }
+
+            TelaChat telaChat = new TelaChat(usuarioLogado, usuarioLogadoIndex, amigo);
+            telaChat.FormClosed += (s, args) => ExibirAmigos();
+            telaChat.Show();
+            this.Hide();
         }
     }
 }

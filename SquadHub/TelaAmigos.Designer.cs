@@ -32,6 +32,7 @@ namespace SquadHub
             this.btVoltarTelaPrincipal = new System.Windows.Forms.Button();
             this.pictureBoxFotoPerfilAmigos = new System.Windows.Forms.PictureBox();
             this.lblNicknameAmigos = new System.Windows.Forms.Label();
+            this.btAbrirChat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilAmigos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,11 +65,23 @@ namespace SquadHub
             this.lblNicknameAmigos.Text = "Nick:";
             this.lblNicknameAmigos.Visible = false;
             // 
+            // btAbrirChat
+            // 
+            this.btAbrirChat.Location = new System.Drawing.Point(394, 102);
+            this.btAbrirChat.Name = "btAbrirChat";
+            this.btAbrirChat.Size = new System.Drawing.Size(75, 23);
+            this.btAbrirChat.TabIndex = 6;
+            this.btAbrirChat.Text = "Chat";
+            this.btAbrirChat.UseVisualStyleBackColor = true;
+            this.btAbrirChat.Visible = false;
+            this.btAbrirChat.Click += new System.EventHandler(this.btAbrirChat_Click);
+            // 
             // TelaAmigos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btAbrirChat);
             this.Controls.Add(this.lblNicknameAmigos);
             this.Controls.Add(this.pictureBoxFotoPerfilAmigos);
             this.Controls.Add(this.btVoltarTelaPrincipal);
@@ -86,5 +99,6 @@ namespace SquadHub
         private System.Windows.Forms.Button btVoltarTelaPrincipal;
         private System.Windows.Forms.PictureBox pictureBoxFotoPerfilAmigos;
         private System.Windows.Forms.Label lblNicknameAmigos;
+        private System.Windows.Forms.Button btAbrirChat;
     }
 }

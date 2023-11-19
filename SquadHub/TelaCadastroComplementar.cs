@@ -68,8 +68,8 @@ namespace SquadHub
 
             LimparCampos();
 
-            TelaLogin telaLogin = new TelaLogin();
-            telaLogin.Show();
+            TelaPrincipal telaPrincipal = new TelaPrincipal(usuario, usuario.Indice);
+            telaPrincipal.Show();
             this.Hide();
         }
 
