@@ -45,9 +45,9 @@ namespace SquadHub
             this.btVoltarTelaPrincipal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(93, 59);
+            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(1134, 186);
             this.btVoltarTelaPrincipal.Name = "btVoltarTelaPrincipal";
-            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(44, 23);
+            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(44, 51);
             this.btVoltarTelaPrincipal.TabIndex = 0;
             this.btVoltarTelaPrincipal.UseVisualStyleBackColor = false;
             this.btVoltarTelaPrincipal.Click += new System.EventHandler(this.btVoltarTelaPrincipal_Click);
@@ -55,9 +55,9 @@ namespace SquadHub
             // boxImagem
             // 
             this.boxImagem.BackColor = System.Drawing.Color.Transparent;
-            this.boxImagem.Location = new System.Drawing.Point(325, 139);
+            this.boxImagem.Location = new System.Drawing.Point(450, 279);
             this.boxImagem.Name = "boxImagem";
-            this.boxImagem.Size = new System.Drawing.Size(493, 286);
+            this.boxImagem.Size = new System.Drawing.Size(447, 251);
             this.boxImagem.TabIndex = 1;
             this.boxImagem.TabStop = false;
             this.boxImagem.Click += new System.EventHandler(this.boxImagem_Click);
@@ -65,11 +65,11 @@ namespace SquadHub
             // txtLegenda
             // 
             this.txtLegenda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtLegenda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLegenda.Location = new System.Drawing.Point(326, 431);
+            this.txtLegenda.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtLegenda.Location = new System.Drawing.Point(450, 550);
             this.txtLegenda.Multiline = true;
             this.txtLegenda.Name = "txtLegenda";
-            this.txtLegenda.Size = new System.Drawing.Size(598, 116);
+            this.txtLegenda.Size = new System.Drawing.Size(540, 69);
             this.txtLegenda.TabIndex = 2;
             this.txtLegenda.TextChanged += new System.EventHandler(this.txtLegenda_TextChanged);
             // 
@@ -81,9 +81,9 @@ namespace SquadHub
             this.btPublicar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btPublicar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btPublicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btPublicar.Location = new System.Drawing.Point(967, 590);
+            this.btPublicar.Location = new System.Drawing.Point(1007, 680);
             this.btPublicar.Name = "btPublicar";
-            this.btPublicar.Size = new System.Drawing.Size(187, 38);
+            this.btPublicar.Size = new System.Drawing.Size(171, 38);
             this.btPublicar.TabIndex = 3;
             this.btPublicar.UseVisualStyleBackColor = false;
             this.btPublicar.Click += new System.EventHandler(this.btPublicar_Click);
@@ -96,9 +96,9 @@ namespace SquadHub
             this.btSelecionarImagem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btSelecionarImagem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btSelecionarImagem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSelecionarImagem.Location = new System.Drawing.Point(875, 155);
+            this.btSelecionarImagem.Location = new System.Drawing.Point(947, 279);
             this.btSelecionarImagem.Name = "btSelecionarImagem";
-            this.btSelecionarImagem.Size = new System.Drawing.Size(51, 51);
+            this.btSelecionarImagem.Size = new System.Drawing.Size(43, 51);
             this.btSelecionarImagem.TabIndex = 4;
             this.btSelecionarImagem.UseVisualStyleBackColor = false;
             this.btSelecionarImagem.Click += new System.EventHandler(this.btSelecionarImagem_Click);
@@ -107,15 +107,15 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.NOVA_PUBLICAÇÃO;
-            this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.NOVA_PUBLICAÇÃO1;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarImagem);
             this.Controls.Add(this.btPublicar);
             this.Controls.Add(this.txtLegenda);
             this.Controls.Add(this.boxImagem);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Name = "TelaNovaPublicacao";
-            this.Text = "TelaNovaPublicacao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.boxImagem)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

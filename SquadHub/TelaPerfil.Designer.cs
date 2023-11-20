@@ -29,6 +29,7 @@ namespace SquadHub
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btVoltarTelaPrincipal = new System.Windows.Forms.Button();
             this.lblNomePerfil = new System.Windows.Forms.Label();
             this.lblEmailPerfil = new System.Windows.Forms.Label();
@@ -47,8 +48,10 @@ namespace SquadHub
             this.labelLegenda = new System.Windows.Forms.Label();
             this.pictureBoxImagem = new System.Windows.Forms.PictureBox();
             this.lblBiografiaPerfil = new System.Windows.Forms.Label();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // btVoltarTelaPrincipal
@@ -59,9 +62,9 @@ namespace SquadHub
             this.btVoltarTelaPrincipal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(96, 60);
+            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(2, 47);
             this.btVoltarTelaPrincipal.Name = "btVoltarTelaPrincipal";
-            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(38, 23);
+            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(48, 31);
             this.btVoltarTelaPrincipal.TabIndex = 2;
             this.btVoltarTelaPrincipal.UseVisualStyleBackColor = false;
             this.btVoltarTelaPrincipal.Click += new System.EventHandler(this.btVoltarTelaPrincipal_Click);
@@ -70,49 +73,56 @@ namespace SquadHub
             // 
             this.lblNomePerfil.AutoSize = true;
             this.lblNomePerfil.BackColor = System.Drawing.Color.Transparent;
-            this.lblNomePerfil.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNomePerfil.Location = new System.Drawing.Point(391, 94);
+            this.lblNomePerfil.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNomePerfil.ForeColor = System.Drawing.Color.White;
+            this.lblNomePerfil.Location = new System.Drawing.Point(259, 115);
             this.lblNomePerfil.Name = "lblNomePerfil";
-            this.lblNomePerfil.Size = new System.Drawing.Size(0, 28);
+            this.lblNomePerfil.Size = new System.Drawing.Size(0, 25);
             this.lblNomePerfil.TabIndex = 3;
             // 
             // lblEmailPerfil
             // 
             this.lblEmailPerfil.AutoSize = true;
             this.lblEmailPerfil.BackColor = System.Drawing.Color.Transparent;
-            this.lblEmailPerfil.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblEmailPerfil.Location = new System.Drawing.Point(426, 167);
+            this.lblEmailPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEmailPerfil.Location = new System.Drawing.Point(134, 217);
             this.lblEmailPerfil.Name = "lblEmailPerfil";
-            this.lblEmailPerfil.Size = new System.Drawing.Size(0, 28);
+            this.lblEmailPerfil.Size = new System.Drawing.Size(0, 24);
             this.lblEmailPerfil.TabIndex = 4;
             // 
             // lblNicknamePerfil
             // 
             this.lblNicknamePerfil.AutoSize = true;
             this.lblNicknamePerfil.BackColor = System.Drawing.Color.Transparent;
-            this.lblNicknamePerfil.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNicknamePerfil.Location = new System.Drawing.Point(442, 135);
+            this.lblNicknamePerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblNicknamePerfil.ForeColor = System.Drawing.Color.White;
+            this.lblNicknamePerfil.Location = new System.Drawing.Point(259, 167);
             this.lblNicknamePerfil.Name = "lblNicknamePerfil";
-            this.lblNicknamePerfil.Size = new System.Drawing.Size(0, 28);
+            this.lblNicknamePerfil.Size = new System.Drawing.Size(0, 24);
             this.lblNicknamePerfil.TabIndex = 5;
             // 
             // boxFotoPerfil
             // 
             this.boxFotoPerfil.BackColor = System.Drawing.Color.Transparent;
-            this.boxFotoPerfil.Location = new System.Drawing.Point(744, 82);
+            this.boxFotoPerfil.Location = new System.Drawing.Point(133, 90);
             this.boxFotoPerfil.Name = "boxFotoPerfil";
-            this.boxFotoPerfil.Size = new System.Drawing.Size(194, 127);
+            this.boxFotoPerfil.Size = new System.Drawing.Size(111, 111);
             this.boxFotoPerfil.TabIndex = 7;
             this.boxFotoPerfil.TabStop = false;
             // 
             // btTelaEditarDados
             // 
-            this.btTelaEditarDados.Location = new System.Drawing.Point(1045, 115);
+            this.btTelaEditarDados.BackColor = System.Drawing.Color.Transparent;
+            this.btTelaEditarDados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btTelaEditarDados.FlatAppearance.BorderSize = 0;
+            this.btTelaEditarDados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btTelaEditarDados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btTelaEditarDados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btTelaEditarDados.Location = new System.Drawing.Point(133, 514);
             this.btTelaEditarDados.Name = "btTelaEditarDados";
-            this.btTelaEditarDados.Size = new System.Drawing.Size(69, 63);
+            this.btTelaEditarDados.Size = new System.Drawing.Size(305, 31);
             this.btTelaEditarDados.TabIndex = 8;
-            this.btTelaEditarDados.Text = "Edite seus dados";
-            this.btTelaEditarDados.UseVisualStyleBackColor = true;
+            this.btTelaEditarDados.UseVisualStyleBackColor = false;
             this.btTelaEditarDados.Click += new System.EventHandler(this.btTelaEditarDados_Click);
             // 
             // btEnviarComentario
@@ -123,53 +133,51 @@ namespace SquadHub
             this.btEnviarComentario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btEnviarComentario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btEnviarComentario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btEnviarComentario.Location = new System.Drawing.Point(789, 535);
+            this.btEnviarComentario.Location = new System.Drawing.Point(1165, 687);
             this.btEnviarComentario.Name = "btEnviarComentario";
-            this.btEnviarComentario.Size = new System.Drawing.Size(119, 33);
+            this.btEnviarComentario.Size = new System.Drawing.Size(126, 30);
             this.btEnviarComentario.TabIndex = 31;
-            this.btEnviarComentario.Text = "Enviar";
             this.btEnviarComentario.UseVisualStyleBackColor = false;
             // 
             // txtComentario
             // 
+            this.txtComentario.BackColor = System.Drawing.Color.LightGray;
             this.txtComentario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtComentario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtComentario.Location = new System.Drawing.Point(407, 492);
+            this.txtComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtComentario.Location = new System.Drawing.Point(646, 637);
             this.txtComentario.Multiline = true;
             this.txtComentario.Name = "txtComentario";
             this.txtComentario.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txtComentario.Size = new System.Drawing.Size(509, 37);
+            this.txtComentario.Size = new System.Drawing.Size(667, 44);
             this.txtComentario.TabIndex = 30;
             // 
             // labelComentario
             // 
             this.labelComentario.AutoSize = true;
-            this.labelComentario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelComentario.Location = new System.Drawing.Point(314, 596);
+            this.labelComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelComentario.ForeColor = System.Drawing.Color.White;
+            this.labelComentario.Location = new System.Drawing.Point(527, 751);
             this.labelComentario.Name = "labelComentario";
-            this.labelComentario.Size = new System.Drawing.Size(84, 19);
+            this.labelComentario.Size = new System.Drawing.Size(0, 24);
             this.labelComentario.TabIndex = 29;
-            this.labelComentario.Text = "Comentário:";
             // 
             // labelDislike
             // 
             this.labelDislike.AutoSize = true;
             this.labelDislike.BackColor = System.Drawing.Color.Transparent;
-            this.labelDislike.Location = new System.Drawing.Point(379, 535);
+            this.labelDislike.Location = new System.Drawing.Point(606, 695);
             this.labelDislike.Name = "labelDislike";
-            this.labelDislike.Size = new System.Drawing.Size(19, 15);
+            this.labelDislike.Size = new System.Drawing.Size(0, 15);
             this.labelDislike.TabIndex = 28;
-            this.labelDislike.Text = "N:";
             // 
             // labelLike
             // 
             this.labelLike.AutoSize = true;
             this.labelLike.BackColor = System.Drawing.Color.Transparent;
-            this.labelLike.Location = new System.Drawing.Point(332, 535);
+            this.labelLike.Location = new System.Drawing.Point(539, 695);
             this.labelLike.Name = "labelLike";
-            this.labelLike.Size = new System.Drawing.Size(22, 15);
+            this.labelLike.Size = new System.Drawing.Size(0, 15);
             this.labelLike.TabIndex = 27;
-            this.labelLike.Text = "N: ";
             // 
             // btLike
             // 
@@ -179,11 +187,10 @@ namespace SquadHub
             this.btLike.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btLike.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btLike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btLike.Location = new System.Drawing.Point(322, 485);
+            this.btLike.Location = new System.Drawing.Point(531, 637);
             this.btLike.Name = "btLike";
-            this.btLike.Size = new System.Drawing.Size(22, 33);
+            this.btLike.Size = new System.Drawing.Size(33, 33);
             this.btLike.TabIndex = 26;
-            this.btLike.Text = "+";
             this.btLike.UseVisualStyleBackColor = false;
             // 
             // btDislike
@@ -194,11 +201,10 @@ namespace SquadHub
             this.btDislike.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btDislike.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btDislike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btDislike.Location = new System.Drawing.Point(366, 493);
+            this.btDislike.Location = new System.Drawing.Point(592, 656);
             this.btDislike.Name = "btDislike";
-            this.btDislike.Size = new System.Drawing.Size(25, 25);
+            this.btDislike.Size = new System.Drawing.Size(36, 36);
             this.btDislike.TabIndex = 25;
-            this.btDislike.Text = "-";
             this.btDislike.UseVisualStyleBackColor = false;
             // 
             // btPublicacaoAnterior
@@ -209,11 +215,10 @@ namespace SquadHub
             this.btPublicacaoAnterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btPublicacaoAnterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btPublicacaoAnterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btPublicacaoAnterior.Location = new System.Drawing.Point(233, 325);
+            this.btPublicacaoAnterior.Location = new System.Drawing.Point(506, 384);
             this.btPublicacaoAnterior.Name = "btPublicacaoAnterior";
-            this.btPublicacaoAnterior.Size = new System.Drawing.Size(61, 95);
+            this.btPublicacaoAnterior.Size = new System.Drawing.Size(47, 70);
             this.btPublicacaoAnterior.TabIndex = 22;
-            this.btPublicacaoAnterior.Text = "Ant";
             this.btPublicacaoAnterior.UseVisualStyleBackColor = false;
             // 
             // btProximaPublicacao
@@ -224,46 +229,48 @@ namespace SquadHub
             this.btProximaPublicacao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btProximaPublicacao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btProximaPublicacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btProximaPublicacao.Location = new System.Drawing.Point(958, 325);
+            this.btProximaPublicacao.Location = new System.Drawing.Point(1288, 384);
             this.btProximaPublicacao.Name = "btProximaPublicacao";
-            this.btProximaPublicacao.Size = new System.Drawing.Size(62, 95);
+            this.btProximaPublicacao.Size = new System.Drawing.Size(46, 70);
             this.btProximaPublicacao.TabIndex = 21;
-            this.btProximaPublicacao.Text = "Prox";
             this.btProximaPublicacao.UseVisualStyleBackColor = false;
             // 
             // labelLegenda
             // 
             this.labelLegenda.AutoSize = true;
             this.labelLegenda.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.labelLegenda.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelLegenda.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelLegenda.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelLegenda.Location = new System.Drawing.Point(465, 457);
+            this.labelLegenda.Location = new System.Drawing.Point(535, 561);
             this.labelLegenda.Name = "labelLegenda";
-            this.labelLegenda.Size = new System.Drawing.Size(0, 19);
+            this.labelLegenda.Size = new System.Drawing.Size(0, 24);
             this.labelLegenda.TabIndex = 20;
             // 
             // pictureBoxImagem
             // 
-            this.pictureBoxImagem.Location = new System.Drawing.Point(453, 247);
+            this.pictureBoxImagem.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxImagem.Location = new System.Drawing.Point(742, 300);
             this.pictureBoxImagem.Name = "pictureBoxImagem";
-            this.pictureBoxImagem.Size = new System.Drawing.Size(340, 207);
+            this.pictureBoxImagem.Size = new System.Drawing.Size(372, 230);
             this.pictureBoxImagem.TabIndex = 19;
             this.pictureBoxImagem.TabStop = false;
             // 
             // lblBiografiaPerfil
             // 
             this.lblBiografiaPerfil.AutoSize = true;
-            this.lblBiografiaPerfil.Location = new System.Drawing.Point(379, 204);
+            this.lblBiografiaPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblBiografiaPerfil.ForeColor = System.Drawing.Color.White;
+            this.lblBiografiaPerfil.Location = new System.Drawing.Point(133, 300);
             this.lblBiografiaPerfil.Name = "lblBiografiaPerfil";
-            this.lblBiografiaPerfil.Size = new System.Drawing.Size(0, 15);
+            this.lblBiografiaPerfil.Size = new System.Drawing.Size(0, 24);
             this.lblBiografiaPerfil.TabIndex = 32;
             // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL;
-            this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL2;
+            this.ClientSize = new System.Drawing.Size(1424, 894);
             this.Controls.Add(this.lblBiografiaPerfil);
             this.Controls.Add(this.btEnviarComentario);
             this.Controls.Add(this.txtComentario);
@@ -283,10 +290,11 @@ namespace SquadHub
             this.Controls.Add(this.lblNomePerfil);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Name = "TelaPerfil";
-            this.Text = "TelaPerfil";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaPerfil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImagem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,5 +320,6 @@ namespace SquadHub
         private System.Windows.Forms.Label labelLegenda;
         private System.Windows.Forms.PictureBox pictureBoxImagem;
         private System.Windows.Forms.Label lblBiografiaPerfil;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

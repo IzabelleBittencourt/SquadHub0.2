@@ -42,35 +42,35 @@ namespace SquadHub
             // 
             // txtNome
             // 
-            this.txtNome.BackColor = System.Drawing.Color.MediumOrchid;
-            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNome.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNome.ForeColor = System.Drawing.Color.White;
-            this.txtNome.Location = new System.Drawing.Point(656, 199);
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNome.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.ForeColor = System.Drawing.Color.Black;
+            this.txtNome.Location = new System.Drawing.Point(504, 259);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(404, 41);
+            this.txtNome.Size = new System.Drawing.Size(394, 42);
             this.txtNome.TabIndex = 4;
             // 
             // txtEmail
             // 
-            this.txtEmail.BackColor = System.Drawing.Color.MediumOrchid;
-            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtEmail.ForeColor = System.Drawing.Color.White;
-            this.txtEmail.Location = new System.Drawing.Point(656, 258);
+            this.txtEmail.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEmail.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(504, 357);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(404, 41);
+            this.txtEmail.Size = new System.Drawing.Size(394, 42);
             this.txtEmail.TabIndex = 6;
             // 
             // txtSenha
             // 
-            this.txtSenha.BackColor = System.Drawing.Color.MediumOrchid;
-            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSenha.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtSenha.ForeColor = System.Drawing.Color.White;
-            this.txtSenha.Location = new System.Drawing.Point(656, 412);
+            this.txtSenha.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSenha.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtSenha.ForeColor = System.Drawing.Color.Black;
+            this.txtSenha.Location = new System.Drawing.Point(504, 553);
             this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(404, 41);
+            this.txtSenha.Size = new System.Drawing.Size(394, 42);
             this.txtSenha.TabIndex = 7;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
@@ -82,7 +82,7 @@ namespace SquadHub
             this.btCadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btCadastrar.Location = new System.Drawing.Point(871, 544);
+            this.btCadastrar.Location = new System.Drawing.Point(721, 742);
             this.btCadastrar.Name = "btCadastrar";
             this.btCadastrar.Size = new System.Drawing.Size(187, 41);
             this.btCadastrar.TabIndex = 8;
@@ -97,7 +97,7 @@ namespace SquadHub
             this.btVoltarTelaLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btVoltarTelaLogin.Location = new System.Drawing.Point(21, 12);
+            this.btVoltarTelaLogin.Location = new System.Drawing.Point(936, 134);
             this.btVoltarTelaLogin.Name = "btVoltarTelaLogin";
             this.btVoltarTelaLogin.Size = new System.Drawing.Size(38, 28);
             this.btVoltarTelaLogin.TabIndex = 9;
@@ -106,24 +106,24 @@ namespace SquadHub
             // 
             // txtConfirmacaoSenha
             // 
-            this.txtConfirmacaoSenha.BackColor = System.Drawing.Color.MediumOrchid;
-            this.txtConfirmacaoSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.White;
-            this.txtConfirmacaoSenha.Location = new System.Drawing.Point(656, 471);
+            this.txtConfirmacaoSenha.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtConfirmacaoSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.Black;
+            this.txtConfirmacaoSenha.Location = new System.Drawing.Point(504, 651);
             this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
-            this.txtConfirmacaoSenha.Size = new System.Drawing.Size(404, 41);
+            this.txtConfirmacaoSenha.Size = new System.Drawing.Size(394, 42);
             this.txtConfirmacaoSenha.TabIndex = 13;
             this.txtConfirmacaoSenha.UseSystemPasswordChar = true;
             // 
             // dataNascimentoPicker
             // 
             this.dataNascimentoPicker.CustomFormat = "dd/MM/yyyy";
-            this.dataNascimentoPicker.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dataNascimentoPicker.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dataNascimentoPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dataNascimentoPicker.Location = new System.Drawing.Point(656, 353);
+            this.dataNascimentoPicker.Location = new System.Drawing.Point(504, 452);
             this.dataNascimentoPicker.Name = "dataNascimentoPicker";
-            this.dataNascimentoPicker.Size = new System.Drawing.Size(404, 41);
+            this.dataNascimentoPicker.Size = new System.Drawing.Size(394, 45);
             this.dataNascimentoPicker.TabIndex = 14;
             // 
             // btMostrarSenha
@@ -134,9 +134,9 @@ namespace SquadHub
             this.btMostrarSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btMostrarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btMostrarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btMostrarSenha.Location = new System.Drawing.Point(1069, 424);
+            this.btMostrarSenha.Location = new System.Drawing.Point(925, 565);
             this.btMostrarSenha.Name = "btMostrarSenha";
-            this.btMostrarSenha.Size = new System.Drawing.Size(32, 22);
+            this.btMostrarSenha.Size = new System.Drawing.Size(32, 20);
             this.btMostrarSenha.TabIndex = 16;
             this.btMostrarSenha.UseVisualStyleBackColor = false;
             this.btMostrarSenha.Click += new System.EventHandler(this.btMostrarSenha_Click);
@@ -149,7 +149,7 @@ namespace SquadHub
             this.btMostrarConfirmacaoSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btMostrarConfirmacaoSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btMostrarConfirmacaoSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btMostrarConfirmacaoSenha.Location = new System.Drawing.Point(1069, 482);
+            this.btMostrarConfirmacaoSenha.Location = new System.Drawing.Point(925, 663);
             this.btMostrarConfirmacaoSenha.Name = "btMostrarConfirmacaoSenha";
             this.btMostrarConfirmacaoSenha.Size = new System.Drawing.Size(32, 20);
             this.btMostrarConfirmacaoSenha.TabIndex = 17;
@@ -160,8 +160,8 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRE_SE;
-            this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRE_SE1;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btMostrarConfirmacaoSenha);
             this.Controls.Add(this.btMostrarSenha);
             this.Controls.Add(this.dataNascimentoPicker);
@@ -172,7 +172,7 @@ namespace SquadHub
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNome);
             this.Name = "TelaCadastro";
-            this.Text = "TelaCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

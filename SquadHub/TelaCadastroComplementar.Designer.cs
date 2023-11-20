@@ -41,41 +41,42 @@ namespace SquadHub
             // lblFotoPerfil
             // 
             this.lblFotoPerfil.AutoSize = true;
-            this.lblFotoPerfil.Location = new System.Drawing.Point(355, 428);
+            this.lblFotoPerfil.Location = new System.Drawing.Point(294, 681);
             this.lblFotoPerfil.Name = "lblFotoPerfil";
-            this.lblFotoPerfil.Size = new System.Drawing.Size(0, 15);
+            this.lblFotoPerfil.Size = new System.Drawing.Size(29, 15);
             this.lblFotoPerfil.TabIndex = 1;
+            this.lblFotoPerfil.Text = "WW";
             // 
             // txtNickname
             // 
-            this.txtNickname.BackColor = System.Drawing.Color.MediumOrchid;
-            this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNickname.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNickname.ForeColor = System.Drawing.Color.White;
-            this.txtNickname.Location = new System.Drawing.Point(568, 302);
+            this.txtNickname.BackColor = System.Drawing.Color.White;
+            this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNickname.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNickname.ForeColor = System.Drawing.Color.Black;
+            this.txtNickname.Location = new System.Drawing.Point(713, 341);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(403, 41);
+            this.txtNickname.Size = new System.Drawing.Size(403, 42);
             this.txtNickname.TabIndex = 3;
             // 
             // txtBiografia
             // 
-            this.txtBiografia.BackColor = System.Drawing.Color.MediumOrchid;
+            this.txtBiografia.BackColor = System.Drawing.Color.White;
             this.txtBiografia.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBiografia.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBiografia.ForeColor = System.Drawing.Color.White;
-            this.txtBiografia.Location = new System.Drawing.Point(568, 387);
+            this.txtBiografia.Font = new System.Drawing.Font("Modern No. 20", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtBiografia.ForeColor = System.Drawing.Color.Black;
+            this.txtBiografia.Location = new System.Drawing.Point(713, 451);
             this.txtBiografia.Multiline = true;
             this.txtBiografia.Name = "txtBiografia";
-            this.txtBiografia.Size = new System.Drawing.Size(403, 119);
+            this.txtBiografia.Size = new System.Drawing.Size(397, 149);
             this.txtBiografia.TabIndex = 4;
             // 
             // boxFotoPerfil
             // 
             this.boxFotoPerfil.BackColor = System.Drawing.Color.Transparent;
             this.boxFotoPerfil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.boxFotoPerfil.Location = new System.Drawing.Point(278, 286);
+            this.boxFotoPerfil.Location = new System.Drawing.Point(303, 297);
             this.boxFotoPerfil.Name = "boxFotoPerfil";
-            this.boxFotoPerfil.Size = new System.Drawing.Size(192, 186);
+            this.boxFotoPerfil.Size = new System.Drawing.Size(266, 242);
             this.boxFotoPerfil.TabIndex = 5;
             this.boxFotoPerfil.TabStop = false;
             // 
@@ -88,9 +89,9 @@ namespace SquadHub
             this.btCadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btCadastrar.Location = new System.Drawing.Point(845, 539);
+            this.btCadastrar.Location = new System.Drawing.Point(966, 667);
             this.btCadastrar.Name = "btCadastrar";
-            this.btCadastrar.Size = new System.Drawing.Size(188, 43);
+            this.btCadastrar.Size = new System.Drawing.Size(167, 43);
             this.btCadastrar.TabIndex = 6;
             this.btCadastrar.UseVisualStyleBackColor = false;
             this.btCadastrar.Click += new System.EventHandler(this.btCadastrar_Click);
@@ -103,9 +104,9 @@ namespace SquadHub
             this.btSelecionarImagemPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btSelecionarImagemPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btSelecionarImagemPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btSelecionarImagemPerfil.Location = new System.Drawing.Point(287, 478);
+            this.btSelecionarImagemPerfil.Location = new System.Drawing.Point(339, 541);
             this.btSelecionarImagemPerfil.Name = "btSelecionarImagemPerfil";
-            this.btSelecionarImagemPerfil.Size = new System.Drawing.Size(169, 39);
+            this.btSelecionarImagemPerfil.Size = new System.Drawing.Size(188, 59);
             this.btSelecionarImagemPerfil.TabIndex = 7;
             this.btSelecionarImagemPerfil.UseVisualStyleBackColor = false;
             this.btSelecionarImagemPerfil.Click += new System.EventHandler(this.btSelecionarImagemPerfil_Click);
@@ -114,8 +115,8 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources._3;
-            this.ClientSize = new System.Drawing.Size(1234, 661);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRO_PERFIL1;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarImagemPerfil);
             this.Controls.Add(this.btCadastrar);
             this.Controls.Add(this.boxFotoPerfil);
@@ -123,7 +124,7 @@ namespace SquadHub
             this.Controls.Add(this.txtNickname);
             this.Controls.Add(this.lblFotoPerfil);
             this.Name = "TelaCadastroComplementar";
-            this.Text = "TelaCadastroComplementar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -39,19 +39,23 @@ namespace SquadHub
             // 
             // btVoltarTelaPrincipal
             // 
-            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(12, 12);
+            this.btVoltarTelaPrincipal.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPrincipal.FlatAppearance.BorderSize = 0;
+            this.btVoltarTelaPrincipal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPrincipal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(44, 60);
             this.btVoltarTelaPrincipal.Name = "btVoltarTelaPrincipal";
-            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(75, 23);
+            this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(47, 29);
             this.btVoltarTelaPrincipal.TabIndex = 0;
-            this.btVoltarTelaPrincipal.Text = "Voltar";
-            this.btVoltarTelaPrincipal.UseVisualStyleBackColor = true;
+            this.btVoltarTelaPrincipal.UseVisualStyleBackColor = false;
             this.btVoltarTelaPrincipal.Click += new System.EventHandler(this.btVoltarTelaPrincipal_Click);
             // 
             // pictureBoxFotoPerfilSolicitacao
             // 
-            this.pictureBoxFotoPerfilSolicitacao.Location = new System.Drawing.Point(82, 85);
+            this.pictureBoxFotoPerfilSolicitacao.Location = new System.Drawing.Point(326, 168);
             this.pictureBoxFotoPerfilSolicitacao.Name = "pictureBoxFotoPerfilSolicitacao";
-            this.pictureBoxFotoPerfilSolicitacao.Size = new System.Drawing.Size(65, 56);
+            this.pictureBoxFotoPerfilSolicitacao.Size = new System.Drawing.Size(94, 89);
             this.pictureBoxFotoPerfilSolicitacao.TabIndex = 1;
             this.pictureBoxFotoPerfilSolicitacao.TabStop = false;
             this.pictureBoxFotoPerfilSolicitacao.Visible = false;
@@ -59,18 +63,21 @@ namespace SquadHub
             // lblNicknameSolicitacao
             // 
             this.lblNicknameSolicitacao.AutoSize = true;
-            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(166, 109);
+            this.lblNicknameSolicitacao.BackColor = System.Drawing.Color.Transparent;
+            this.lblNicknameSolicitacao.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNicknameSolicitacao.ForeColor = System.Drawing.Color.White;
+            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(445, 230);
             this.lblNicknameSolicitacao.Name = "lblNicknameSolicitacao";
-            this.lblNicknameSolicitacao.Size = new System.Drawing.Size(34, 15);
+            this.lblNicknameSolicitacao.Size = new System.Drawing.Size(0, 25);
             this.lblNicknameSolicitacao.TabIndex = 2;
-            this.lblNicknameSolicitacao.Text = "Nick:";
             this.lblNicknameSolicitacao.Visible = false;
             // 
             // btAceitarSolicitacaoAmizade
             // 
-            this.btAceitarSolicitacaoAmizade.Location = new System.Drawing.Point(355, 102);
+            this.btAceitarSolicitacaoAmizade.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btAceitarSolicitacaoAmizade.Location = new System.Drawing.Point(923, 227);
             this.btAceitarSolicitacaoAmizade.Name = "btAceitarSolicitacaoAmizade";
-            this.btAceitarSolicitacaoAmizade.Size = new System.Drawing.Size(79, 28);
+            this.btAceitarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);
             this.btAceitarSolicitacaoAmizade.TabIndex = 3;
             this.btAceitarSolicitacaoAmizade.Text = "Aceitar";
             this.btAceitarSolicitacaoAmizade.UseVisualStyleBackColor = true;
@@ -79,9 +86,10 @@ namespace SquadHub
             // 
             // btRecusarSolicitacaoAmizade
             // 
-            this.btRecusarSolicitacaoAmizade.Location = new System.Drawing.Point(473, 102);
+            this.btRecusarSolicitacaoAmizade.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btRecusarSolicitacaoAmizade.Location = new System.Drawing.Point(1041, 227);
             this.btRecusarSolicitacaoAmizade.Name = "btRecusarSolicitacaoAmizade";
-            this.btRecusarSolicitacaoAmizade.Size = new System.Drawing.Size(79, 28);
+            this.btRecusarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);
             this.btRecusarSolicitacaoAmizade.TabIndex = 4;
             this.btRecusarSolicitacaoAmizade.Text = "Recusar";
             this.btRecusarSolicitacaoAmizade.UseVisualStyleBackColor = true;
@@ -92,13 +100,15 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS__3_;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btRecusarSolicitacaoAmizade);
             this.Controls.Add(this.btAceitarSolicitacaoAmizade);
             this.Controls.Add(this.lblNicknameSolicitacao);
             this.Controls.Add(this.pictureBoxFotoPerfilSolicitacao);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Name = "TelaNotificacoes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaNotificacoes";
             this.Load += new System.EventHandler(this.TelaNotificacoes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilSolicitacao)).EndInit();

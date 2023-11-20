@@ -41,69 +41,92 @@ namespace SquadHub
             // 
             // btVoltarTelaPerfil
             // 
-            this.btVoltarTelaPerfil.Location = new System.Drawing.Point(12, 12);
+            this.btVoltarTelaPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPerfil.FlatAppearance.BorderSize = 0;
+            this.btVoltarTelaPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVoltarTelaPerfil.Location = new System.Drawing.Point(250, 183);
             this.btVoltarTelaPerfil.Name = "btVoltarTelaPerfil";
-            this.btVoltarTelaPerfil.Size = new System.Drawing.Size(80, 44);
+            this.btVoltarTelaPerfil.Size = new System.Drawing.Size(41, 31);
             this.btVoltarTelaPerfil.TabIndex = 0;
-            this.btVoltarTelaPerfil.Text = "Voltar";
-            this.btVoltarTelaPerfil.UseVisualStyleBackColor = true;
+            this.btVoltarTelaPerfil.UseVisualStyleBackColor = false;
             this.btVoltarTelaPerfil.Click += new System.EventHandler(this.btVoltarTelaPerfil_Click);
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(149, 118);
+            this.txtNome.BackColor = System.Drawing.SystemColors.Window;
+            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNome.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.Location = new System.Drawing.Point(716, 309);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 23);
+            this.txtNome.Size = new System.Drawing.Size(366, 35);
             this.txtNome.TabIndex = 1;
             // 
             // txtNickname
             // 
-            this.txtNickname.Location = new System.Drawing.Point(149, 183);
+            this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNickname.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNickname.Location = new System.Drawing.Point(716, 398);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(100, 23);
+            this.txtNickname.Size = new System.Drawing.Size(366, 35);
             this.txtNickname.TabIndex = 2;
             this.txtNickname.TextChanged += new System.EventHandler(this.txtNickname_TextChanged);
             // 
             // txtBio
             // 
-            this.txtBio.Location = new System.Drawing.Point(494, 183);
+            this.txtBio.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBio.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtBio.Location = new System.Drawing.Point(726, 502);
             this.txtBio.Name = "txtBio";
-            this.txtBio.Size = new System.Drawing.Size(100, 23);
+            this.txtBio.Size = new System.Drawing.Size(345, 35);
             this.txtBio.TabIndex = 3;
             // 
             // btAtualizarDados
             // 
-            this.btAtualizarDados.Location = new System.Drawing.Point(293, 375);
+            this.btAtualizarDados.BackColor = System.Drawing.Color.Transparent;
+            this.btAtualizarDados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btAtualizarDados.FlatAppearance.BorderSize = 0;
+            this.btAtualizarDados.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btAtualizarDados.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btAtualizarDados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btAtualizarDados.Location = new System.Drawing.Point(1002, 670);
             this.btAtualizarDados.Name = "btAtualizarDados";
-            this.btAtualizarDados.Size = new System.Drawing.Size(138, 44);
+            this.btAtualizarDados.Size = new System.Drawing.Size(171, 39);
             this.btAtualizarDados.TabIndex = 5;
-            this.btAtualizarDados.Text = "Concluído";
-            this.btAtualizarDados.UseVisualStyleBackColor = true;
+            this.btAtualizarDados.UseVisualStyleBackColor = false;
             this.btAtualizarDados.Click += new System.EventHandler(this.btAtualizarDados_Click);
             // 
             // pictureBoxFotoPerfil
             // 
-            this.pictureBoxFotoPerfil.Location = new System.Drawing.Point(465, 35);
+            this.pictureBoxFotoPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxFotoPerfil.Location = new System.Drawing.Point(343, 297);
             this.pictureBoxFotoPerfil.Name = "pictureBoxFotoPerfil";
-            this.pictureBoxFotoPerfil.Size = new System.Drawing.Size(165, 123);
+            this.pictureBoxFotoPerfil.Size = new System.Drawing.Size(266, 242);
             this.pictureBoxFotoPerfil.TabIndex = 6;
             this.pictureBoxFotoPerfil.TabStop = false;
             // 
             // btSelecionarFotoPerfil
             // 
-            this.btSelecionarFotoPerfil.Location = new System.Drawing.Point(647, 73);
+            this.btSelecionarFotoPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.btSelecionarFotoPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btSelecionarFotoPerfil.FlatAppearance.BorderSize = 0;
+            this.btSelecionarFotoPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btSelecionarFotoPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btSelecionarFotoPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btSelecionarFotoPerfil.Location = new System.Drawing.Point(381, 545);
             this.btSelecionarFotoPerfil.Name = "btSelecionarFotoPerfil";
-            this.btSelecionarFotoPerfil.Size = new System.Drawing.Size(56, 68);
+            this.btSelecionarFotoPerfil.Size = new System.Drawing.Size(188, 49);
             this.btSelecionarFotoPerfil.TabIndex = 7;
-            this.btSelecionarFotoPerfil.Text = "Escolha uma nova foto";
-            this.btSelecionarFotoPerfil.UseVisualStyleBackColor = true;
+            this.btSelecionarFotoPerfil.UseVisualStyleBackColor = false;
             this.btSelecionarFotoPerfil.Click += new System.EventHandler(this.btSelecionarFotoPerfil_Click);
             // 
             // TelaEditarDados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.EDITAR_DADOS;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarFotoPerfil);
             this.Controls.Add(this.pictureBoxFotoPerfil);
             this.Controls.Add(this.btAtualizarDados);
@@ -112,7 +135,7 @@ namespace SquadHub
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btVoltarTelaPerfil);
             this.Name = "TelaEditarDados";
-            this.Text = "TelaEditarDados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
