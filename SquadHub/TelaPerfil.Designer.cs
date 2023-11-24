@@ -84,7 +84,9 @@ namespace SquadHub
             // 
             this.lblEmailPerfil.AutoSize = true;
             this.lblEmailPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.lblEmailPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblEmailPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEmailPerfil.ForeColor = System.Drawing.Color.White;
             this.lblEmailPerfil.Location = new System.Drawing.Point(134, 217);
             this.lblEmailPerfil.Name = "lblEmailPerfil";
             this.lblEmailPerfil.Size = new System.Drawing.Size(0, 24);
@@ -154,8 +156,10 @@ namespace SquadHub
             // labelComentario
             // 
             this.labelComentario.AutoSize = true;
+            this.labelComentario.BackColor = System.Drawing.Color.Transparent;
+            this.labelComentario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelComentario.ForeColor = System.Drawing.Color.White;
+            this.labelComentario.ForeColor = System.Drawing.Color.Black;
             this.labelComentario.Location = new System.Drawing.Point(527, 751);
             this.labelComentario.Name = "labelComentario";
             this.labelComentario.Size = new System.Drawing.Size(0, 24);
@@ -165,6 +169,7 @@ namespace SquadHub
             // 
             this.labelDislike.AutoSize = true;
             this.labelDislike.BackColor = System.Drawing.Color.Transparent;
+            this.labelDislike.ForeColor = System.Drawing.Color.White;
             this.labelDislike.Location = new System.Drawing.Point(606, 695);
             this.labelDislike.Name = "labelDislike";
             this.labelDislike.Size = new System.Drawing.Size(0, 15);
@@ -174,6 +179,8 @@ namespace SquadHub
             // 
             this.labelLike.AutoSize = true;
             this.labelLike.BackColor = System.Drawing.Color.Transparent;
+            this.labelLike.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelLike.ForeColor = System.Drawing.Color.White;
             this.labelLike.Location = new System.Drawing.Point(539, 695);
             this.labelLike.Name = "labelLike";
             this.labelLike.Size = new System.Drawing.Size(0, 15);
@@ -238,6 +245,7 @@ namespace SquadHub
             // labelLegenda
             // 
             this.labelLegenda.AutoSize = true;
+            this.labelLegenda.BackColor = System.Drawing.Color.Transparent;
             this.labelLegenda.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.labelLegenda.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelLegenda.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -258,6 +266,8 @@ namespace SquadHub
             // lblBiografiaPerfil
             // 
             this.lblBiografiaPerfil.AutoSize = true;
+            this.lblBiografiaPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.lblBiografiaPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblBiografiaPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblBiografiaPerfil.ForeColor = System.Drawing.Color.White;
             this.lblBiografiaPerfil.Location = new System.Drawing.Point(133, 300);

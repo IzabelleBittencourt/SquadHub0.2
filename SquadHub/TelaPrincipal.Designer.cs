@@ -161,6 +161,7 @@ namespace SquadHub
             // 
             this.labelNicknamePublicacao.AutoSize = true;
             this.labelNicknamePublicacao.BackColor = System.Drawing.Color.Transparent;
+            this.labelNicknamePublicacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelNicknamePublicacao.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelNicknamePublicacao.ForeColor = System.Drawing.Color.White;
             this.labelNicknamePublicacao.Location = new System.Drawing.Point(382, 238);
@@ -202,7 +203,8 @@ namespace SquadHub
             // 
             this.labelLike.AutoSize = true;
             this.labelLike.BackColor = System.Drawing.Color.Transparent;
-            this.labelLike.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelLike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelLike.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelLike.ForeColor = System.Drawing.Color.White;
             this.labelLike.Location = new System.Drawing.Point(348, 695);
             this.labelLike.Name = "labelLike";
@@ -213,6 +215,8 @@ namespace SquadHub
             // 
             this.labelDislike.AutoSize = true;
             this.labelDislike.BackColor = System.Drawing.Color.Transparent;
+            this.labelDislike.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.labelDislike.ForeColor = System.Drawing.Color.White;
             this.labelDislike.Location = new System.Drawing.Point(406, 695);
             this.labelDislike.Name = "labelDislike";
             this.labelDislike.Size = new System.Drawing.Size(0, 15);
@@ -221,6 +225,7 @@ namespace SquadHub
             // labelComentario
             // 
             this.labelComentario.AutoSize = true;
+            this.labelComentario.BackColor = System.Drawing.Color.Transparent;
             this.labelComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelComentario.Location = new System.Drawing.Point(329, 753);
             this.labelComentario.Name = "labelComentario";
@@ -266,6 +271,8 @@ namespace SquadHub
             // labelNickname
             // 
             this.labelNickname.AutoSize = true;
+            this.labelNickname.BackColor = System.Drawing.Color.Transparent;
+            this.labelNickname.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelNickname.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelNickname.ForeColor = System.Drawing.Color.White;
             this.labelNickname.Location = new System.Drawing.Point(102, 127);
@@ -276,6 +283,7 @@ namespace SquadHub
             // btTelaNotificacoes
             // 
             this.btTelaNotificacoes.BackColor = System.Drawing.Color.Transparent;
+            this.btTelaNotificacoes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btTelaNotificacoes.FlatAppearance.BorderSize = 0;
             this.btTelaNotificacoes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btTelaNotificacoes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
