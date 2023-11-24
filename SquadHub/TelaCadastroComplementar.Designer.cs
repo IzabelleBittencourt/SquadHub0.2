@@ -29,7 +29,6 @@ namespace SquadHub
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblFotoPerfil = new System.Windows.Forms.Label();
             this.txtNickname = new System.Windows.Forms.TextBox();
             this.txtBiografia = new System.Windows.Forms.TextBox();
             this.boxFotoPerfil = new System.Windows.Forms.PictureBox();
@@ -37,15 +36,6 @@ namespace SquadHub
             this.btSelecionarImagemPerfil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblFotoPerfil
-            // 
-            this.lblFotoPerfil.AutoSize = true;
-            this.lblFotoPerfil.Location = new System.Drawing.Point(294, 681);
-            this.lblFotoPerfil.Name = "lblFotoPerfil";
-            this.lblFotoPerfil.Size = new System.Drawing.Size(29, 15);
-            this.lblFotoPerfil.TabIndex = 1;
-            this.lblFotoPerfil.Text = "WW";
             // 
             // txtNickname
             // 
@@ -122,7 +112,6 @@ namespace SquadHub
             this.Controls.Add(this.boxFotoPerfil);
             this.Controls.Add(this.txtBiografia);
             this.Controls.Add(this.txtNickname);
-            this.Controls.Add(this.lblFotoPerfil);
             this.Name = "TelaCadastroComplementar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).EndInit();
@@ -132,7 +121,6 @@ namespace SquadHub
         }
 
         #endregion
-        private System.Windows.Forms.Label lblFotoPerfil;
         private System.Windows.Forms.TextBox txtNickname;
         private System.Windows.Forms.TextBox txtBiografia;
         private System.Windows.Forms.PictureBox boxFotoPerfil;

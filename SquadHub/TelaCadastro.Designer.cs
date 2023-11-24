@@ -119,11 +119,11 @@ namespace SquadHub
             // dataNascimentoPicker
             // 
             this.dataNascimentoPicker.CustomFormat = "dd/MM/yyyy";
-            this.dataNascimentoPicker.Font = new System.Drawing.Font("Modern No. 20", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dataNascimentoPicker.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.dataNascimentoPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dataNascimentoPicker.Location = new System.Drawing.Point(504, 452);
             this.dataNascimentoPicker.Name = "dataNascimentoPicker";
-            this.dataNascimentoPicker.Size = new System.Drawing.Size(394, 45);
+            this.dataNascimentoPicker.Size = new System.Drawing.Size(394, 46);
             this.dataNascimentoPicker.TabIndex = 14;
             // 
             // btMostrarSenha
