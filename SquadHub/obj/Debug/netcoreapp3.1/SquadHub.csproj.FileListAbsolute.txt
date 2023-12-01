@@ -195,3 +195,5 @@ C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\
 C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.dll
 C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.pdb
 C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.genruntimeconfig.cache
+C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaAlterarSenha.resources
+C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPalavraChave.resources

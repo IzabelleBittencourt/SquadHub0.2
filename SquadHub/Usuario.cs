@@ -16,6 +16,7 @@ namespace SquadHub
         public string Nickname { get; set; }
         public string Biografia { get; set; }
         public Image FotoPerfil { get; set; }
+        public string PalavraChave { get; set; }
         public List<Publicacao> Publicacoes { get; set; } = new List<Publicacao>();
         public List<Amigo> ListaAmigos { get; set; }
         public List<Usuario> SolicitacoesAmizade { get; set; }

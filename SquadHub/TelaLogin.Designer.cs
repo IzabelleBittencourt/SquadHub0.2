@@ -35,6 +35,7 @@ namespace SquadHub
             this.btEntrar = new System.Windows.Forms.Button();
             this.btMostrarSenhaLogin = new System.Windows.Forms.Button();
             this.txtSenhaLogin = new System.Windows.Forms.TextBox();
+            this.btEsqueceuSenha = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btTelaCad
@@ -116,12 +117,23 @@ namespace SquadHub
             this.txtSenhaLogin.TabIndex = 4;
             this.txtSenhaLogin.UseSystemPasswordChar = true;
             // 
+            // btEsqueceuSenha
+            // 
+            this.btEsqueceuSenha.Location = new System.Drawing.Point(1069, 594);
+            this.btEsqueceuSenha.Name = "btEsqueceuSenha";
+            this.btEsqueceuSenha.Size = new System.Drawing.Size(209, 23);
+            this.btEsqueceuSenha.TabIndex = 19;
+            this.btEsqueceuSenha.Text = "Esqueceu a Senha?";
+            this.btEsqueceuSenha.UseVisualStyleBackColor = true;
+            this.btEsqueceuSenha.Click += new System.EventHandler(this.btEsqueceuSenha_Click);
+            // 
             // TelaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.LOGIN1;
             this.ClientSize = new System.Drawing.Size(1424, 861);
+            this.Controls.Add(this.btEsqueceuSenha);
             this.Controls.Add(this.btMostrarSenhaLogin);
             this.Controls.Add(this.btEntrar);
             this.Controls.Add(this.txtSenhaLogin);
@@ -144,6 +156,7 @@ namespace SquadHub
         private System.Windows.Forms.Button btEntrar;
         private System.Windows.Forms.Button btMostrarSenhaLogin;
         private System.Windows.Forms.TextBox txtSenhaLogin;
+        private System.Windows.Forms.Button btEsqueceuSenha;
     }
 }
 

@@ -38,6 +38,8 @@ namespace SquadHub
             this.dataNascimentoPicker = new System.Windows.Forms.DateTimePicker();
             this.btMostrarSenha = new System.Windows.Forms.Button();
             this.btMostrarConfirmacaoSenha = new System.Windows.Forms.Button();
+            this.txtPalavraChave = new System.Windows.Forms.TextBox();
+            this.lblPalavraChave = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNome
@@ -156,12 +158,30 @@ namespace SquadHub
             this.btMostrarConfirmacaoSenha.UseVisualStyleBackColor = false;
             this.btMostrarConfirmacaoSenha.Click += new System.EventHandler(this.btMostrarConfirmacaoSenha_Click);
             // 
+            // txtPalavraChave
+            // 
+            this.txtPalavraChave.Location = new System.Drawing.Point(485, 760);
+            this.txtPalavraChave.Name = "txtPalavraChave";
+            this.txtPalavraChave.Size = new System.Drawing.Size(154, 23);
+            this.txtPalavraChave.TabIndex = 18;
+            // 
+            // lblPalavraChave
+            // 
+            this.lblPalavraChave.AutoSize = true;
+            this.lblPalavraChave.Location = new System.Drawing.Point(485, 729);
+            this.lblPalavraChave.Name = "lblPalavraChave";
+            this.lblPalavraChave.Size = new System.Drawing.Size(84, 15);
+            this.lblPalavraChave.TabIndex = 19;
+            this.lblPalavraChave.Text = "Palavra Chave:";
+            // 
             // TelaCadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRE_SE1;
             this.ClientSize = new System.Drawing.Size(1424, 861);
+            this.Controls.Add(this.lblPalavraChave);
+            this.Controls.Add(this.txtPalavraChave);
             this.Controls.Add(this.btMostrarConfirmacaoSenha);
             this.Controls.Add(this.btMostrarSenha);
             this.Controls.Add(this.dataNascimentoPicker);
@@ -173,6 +193,7 @@ namespace SquadHub
             this.Controls.Add(this.txtNome);
             this.Name = "TelaCadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.TelaCadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,5 +209,7 @@ namespace SquadHub
         private System.Windows.Forms.DateTimePicker dataNascimentoPicker;
         private System.Windows.Forms.Button btMostrarSenha;
         private System.Windows.Forms.Button btMostrarConfirmacaoSenha;
+        private System.Windows.Forms.TextBox txtPalavraChave;
+        private System.Windows.Forms.Label lblPalavraChave;
     }
 }

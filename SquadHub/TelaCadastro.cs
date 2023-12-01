@@ -30,8 +30,9 @@ namespace SquadHub
             string email = txtEmail.Text;
             string senha = txtSenha.Text;
             string confirmacaoSenha = txtConfirmacaoSenha.Text;
+            string palavraChave = txtPalavraChave.Text;
 
-            if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha) || string.IsNullOrWhiteSpace(confirmacaoSenha))
+            if (string.IsNullOrWhiteSpace(nome) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(senha) || string.IsNullOrWhiteSpace(confirmacaoSenha) || string.IsNullOrWhiteSpace(palavraChave))
             {
                 MessageBox.Show("Por favor, preencha todos os campos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -74,7 +75,8 @@ namespace SquadHub
             {
                 Nome = nome,
                 Email = email,
-                Senha = senha
+                Senha = senha,
+                PalavraChave = palavraChave
             };
 
             novoUsuario.Indice = ListaUsuarios.Instance.Usuarios.Count;
@@ -105,6 +107,11 @@ namespace SquadHub
         private void btMostrarConfirmacaoSenha_Click(object sender, EventArgs e)
         {
             txtConfirmacaoSenha.UseSystemPasswordChar = !txtConfirmacaoSenha.UseSystemPasswordChar;
+        }
+
+        private void TelaCadastro_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

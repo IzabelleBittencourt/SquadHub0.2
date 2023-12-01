@@ -51,5 +51,12 @@ namespace SquadHub
         {
             txtSenhaLogin.UseSystemPasswordChar = !txtSenhaLogin.UseSystemPasswordChar;
         }
+
+        private void btEsqueceuSenha_Click(object sender, EventArgs e)
+        {
+            TelaPalavraChave telaPalavraChave = new TelaPalavraChave();
+            telaPalavraChave.Show();
+            this.Hide();
+        }
     }
 }
