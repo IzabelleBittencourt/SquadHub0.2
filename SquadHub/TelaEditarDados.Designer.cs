@@ -55,31 +55,37 @@ namespace SquadHub
             // 
             // txtNome
             // 
-            this.txtNome.BackColor = System.Drawing.SystemColors.Window;
+            this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNome.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNome.Location = new System.Drawing.Point(716, 309);
+            this.txtNome.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.ForeColor = System.Drawing.Color.Black;
+            this.txtNome.Location = new System.Drawing.Point(724, 309);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(366, 35);
+            this.txtNome.Size = new System.Drawing.Size(354, 43);
             this.txtNome.TabIndex = 1;
             // 
             // txtNickname
             // 
+            this.txtNickname.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNickname.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNickname.Location = new System.Drawing.Point(716, 398);
+            this.txtNickname.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNickname.ForeColor = System.Drawing.Color.Black;
+            this.txtNickname.Location = new System.Drawing.Point(724, 398);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(366, 35);
+            this.txtNickname.Size = new System.Drawing.Size(354, 43);
             this.txtNickname.TabIndex = 2;
             this.txtNickname.TextChanged += new System.EventHandler(this.txtNickname_TextChanged);
             // 
             // txtBio
             // 
+            this.txtBio.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBio.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBio.Location = new System.Drawing.Point(726, 502);
+            this.txtBio.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtBio.ForeColor = System.Drawing.Color.Black;
+            this.txtBio.Location = new System.Drawing.Point(724, 495);
+            this.txtBio.Multiline = true;
             this.txtBio.Name = "txtBio";
-            this.txtBio.Size = new System.Drawing.Size(345, 35);
+            this.txtBio.Size = new System.Drawing.Size(354, 128);
             this.txtBio.TabIndex = 3;
             // 
             // btAtualizarDados
@@ -125,7 +131,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.EDITAR_DADOS;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.EDITAR_DADOS1;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarFotoPerfil);
             this.Controls.Add(this.pictureBoxFotoPerfil);

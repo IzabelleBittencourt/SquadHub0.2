@@ -66,13 +66,15 @@ namespace SquadHub
             // lblNicknameAmigos
             // 
             this.lblNicknameAmigos.AutoSize = true;
-            this.lblNicknameAmigos.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNicknameAmigos.BackColor = System.Drawing.Color.Transparent;
+            this.lblNicknameAmigos.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNicknameAmigos.ForeColor = System.Drawing.Color.White;
-            this.lblNicknameAmigos.Location = new System.Drawing.Point(525, 153);
+            this.lblNicknameAmigos.Location = new System.Drawing.Point(510, 148);
             this.lblNicknameAmigos.Name = "lblNicknameAmigos";
-            this.lblNicknameAmigos.Size = new System.Drawing.Size(0, 25);
+            this.lblNicknameAmigos.Size = new System.Drawing.Size(0, 29);
             this.lblNicknameAmigos.TabIndex = 5;
             this.lblNicknameAmigos.Visible = false;
+            this.lblNicknameAmigos.Click += new System.EventHandler(this.lblNicknameAmigos_Click);
             // 
             // btAbrirChat
             // 
@@ -104,7 +106,7 @@ namespace SquadHub
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS1;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btAbrirChat);
             this.Controls.Add(this.lblNicknameAmigos);

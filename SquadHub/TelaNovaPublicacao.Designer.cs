@@ -64,9 +64,11 @@ namespace SquadHub
             // 
             // txtLegenda
             // 
+            this.txtLegenda.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtLegenda.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtLegenda.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtLegenda.Location = new System.Drawing.Point(450, 550);
+            this.txtLegenda.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtLegenda.ForeColor = System.Drawing.Color.Black;
+            this.txtLegenda.Location = new System.Drawing.Point(453, 545);
             this.txtLegenda.Multiline = true;
             this.txtLegenda.Name = "txtLegenda";
             this.txtLegenda.Size = new System.Drawing.Size(540, 69);
@@ -81,9 +83,9 @@ namespace SquadHub
             this.btPublicar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btPublicar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btPublicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btPublicar.Location = new System.Drawing.Point(1007, 680);
+            this.btPublicar.Location = new System.Drawing.Point(1007, 678);
             this.btPublicar.Name = "btPublicar";
-            this.btPublicar.Size = new System.Drawing.Size(171, 38);
+            this.btPublicar.Size = new System.Drawing.Size(171, 37);
             this.btPublicar.TabIndex = 3;
             this.btPublicar.UseVisualStyleBackColor = false;
             this.btPublicar.Click += new System.EventHandler(this.btPublicar_Click);
@@ -107,7 +109,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.NOVA_PUBLICAÇÃO1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.NOVA_PUBLICAÇÃO2;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarImagem);
             this.Controls.Add(this.btPublicar);

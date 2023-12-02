@@ -64,17 +64,18 @@ namespace SquadHub
             // 
             this.lblNicknameSolicitacao.AutoSize = true;
             this.lblNicknameSolicitacao.BackColor = System.Drawing.Color.Transparent;
-            this.lblNicknameSolicitacao.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNicknameSolicitacao.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNicknameSolicitacao.ForeColor = System.Drawing.Color.White;
-            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(445, 230);
+            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(425, 225);
             this.lblNicknameSolicitacao.Name = "lblNicknameSolicitacao";
-            this.lblNicknameSolicitacao.Size = new System.Drawing.Size(0, 25);
+            this.lblNicknameSolicitacao.Size = new System.Drawing.Size(0, 29);
             this.lblNicknameSolicitacao.TabIndex = 2;
             this.lblNicknameSolicitacao.Visible = false;
             // 
             // btAceitarSolicitacaoAmizade
             // 
-            this.btAceitarSolicitacaoAmizade.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btAceitarSolicitacaoAmizade.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btAceitarSolicitacaoAmizade.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btAceitarSolicitacaoAmizade.Location = new System.Drawing.Point(923, 227);
             this.btAceitarSolicitacaoAmizade.Name = "btAceitarSolicitacaoAmizade";
             this.btAceitarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);
@@ -86,7 +87,8 @@ namespace SquadHub
             // 
             // btRecusarSolicitacaoAmizade
             // 
-            this.btRecusarSolicitacaoAmizade.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btRecusarSolicitacaoAmizade.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btRecusarSolicitacaoAmizade.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btRecusarSolicitacaoAmizade.Location = new System.Drawing.Point(1041, 227);
             this.btRecusarSolicitacaoAmizade.Name = "btRecusarSolicitacaoAmizade";
             this.btRecusarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);

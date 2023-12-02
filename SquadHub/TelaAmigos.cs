@@ -96,5 +96,10 @@ namespace SquadHub
             telaChat.Show();
             this.Hide();
         }
+
+        private void lblNicknameAmigos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

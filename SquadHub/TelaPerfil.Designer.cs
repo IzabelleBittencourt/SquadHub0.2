@@ -75,7 +75,7 @@ namespace SquadHub
             this.lblNomePerfil.BackColor = System.Drawing.Color.Transparent;
             this.lblNomePerfil.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNomePerfil.ForeColor = System.Drawing.Color.White;
-            this.lblNomePerfil.Location = new System.Drawing.Point(259, 115);
+            this.lblNomePerfil.Location = new System.Drawing.Point(259, 173);
             this.lblNomePerfil.Name = "lblNomePerfil";
             this.lblNomePerfil.Size = new System.Drawing.Size(0, 25);
             this.lblNomePerfil.TabIndex = 3;
@@ -85,11 +85,11 @@ namespace SquadHub
             this.lblEmailPerfil.AutoSize = true;
             this.lblEmailPerfil.BackColor = System.Drawing.Color.Transparent;
             this.lblEmailPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblEmailPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEmailPerfil.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblEmailPerfil.ForeColor = System.Drawing.Color.White;
             this.lblEmailPerfil.Location = new System.Drawing.Point(134, 217);
             this.lblEmailPerfil.Name = "lblEmailPerfil";
-            this.lblEmailPerfil.Size = new System.Drawing.Size(0, 24);
+            this.lblEmailPerfil.Size = new System.Drawing.Size(0, 25);
             this.lblEmailPerfil.TabIndex = 4;
             // 
             // lblNicknamePerfil
@@ -98,7 +98,7 @@ namespace SquadHub
             this.lblNicknamePerfil.BackColor = System.Drawing.Color.Transparent;
             this.lblNicknamePerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblNicknamePerfil.ForeColor = System.Drawing.Color.White;
-            this.lblNicknamePerfil.Location = new System.Drawing.Point(259, 167);
+            this.lblNicknamePerfil.Location = new System.Drawing.Point(259, 120);
             this.lblNicknamePerfil.Name = "lblNicknamePerfil";
             this.lblNicknamePerfil.Size = new System.Drawing.Size(0, 24);
             this.lblNicknamePerfil.TabIndex = 5;
@@ -143,9 +143,10 @@ namespace SquadHub
             // 
             // txtComentario
             // 
-            this.txtComentario.BackColor = System.Drawing.Color.LightGray;
+            this.txtComentario.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtComentario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtComentario.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtComentario.ForeColor = System.Drawing.Color.Black;
             this.txtComentario.Location = new System.Drawing.Point(646, 637);
             this.txtComentario.Multiline = true;
             this.txtComentario.Name = "txtComentario";
@@ -156,13 +157,13 @@ namespace SquadHub
             // labelComentario
             // 
             this.labelComentario.AutoSize = true;
-            this.labelComentario.BackColor = System.Drawing.Color.Transparent;
+            this.labelComentario.BackColor = System.Drawing.Color.WhiteSmoke;
             this.labelComentario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelComentario.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelComentario.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelComentario.ForeColor = System.Drawing.Color.Black;
             this.labelComentario.Location = new System.Drawing.Point(527, 751);
             this.labelComentario.Name = "labelComentario";
-            this.labelComentario.Size = new System.Drawing.Size(0, 24);
+            this.labelComentario.Size = new System.Drawing.Size(0, 25);
             this.labelComentario.TabIndex = 29;
             // 
             // labelDislike
@@ -245,21 +246,21 @@ namespace SquadHub
             // labelLegenda
             // 
             this.labelLegenda.AutoSize = true;
-            this.labelLegenda.BackColor = System.Drawing.Color.Transparent;
+            this.labelLegenda.BackColor = System.Drawing.Color.WhiteSmoke;
             this.labelLegenda.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.labelLegenda.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelLegenda.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelLegenda.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelLegenda.ForeColor = System.Drawing.Color.Black;
             this.labelLegenda.Location = new System.Drawing.Point(535, 561);
             this.labelLegenda.Name = "labelLegenda";
-            this.labelLegenda.Size = new System.Drawing.Size(0, 24);
+            this.labelLegenda.Size = new System.Drawing.Size(0, 25);
             this.labelLegenda.TabIndex = 20;
             // 
             // pictureBoxImagem
             // 
             this.pictureBoxImagem.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxImagem.Location = new System.Drawing.Point(742, 300);
+            this.pictureBoxImagem.Location = new System.Drawing.Point(719, 294);
             this.pictureBoxImagem.Name = "pictureBoxImagem";
-            this.pictureBoxImagem.Size = new System.Drawing.Size(372, 230);
+            this.pictureBoxImagem.Size = new System.Drawing.Size(447, 251);
             this.pictureBoxImagem.TabIndex = 19;
             this.pictureBoxImagem.TabStop = false;
             // 
@@ -268,18 +269,18 @@ namespace SquadHub
             this.lblBiografiaPerfil.AutoSize = true;
             this.lblBiografiaPerfil.BackColor = System.Drawing.Color.Transparent;
             this.lblBiografiaPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblBiografiaPerfil.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblBiografiaPerfil.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblBiografiaPerfil.ForeColor = System.Drawing.Color.White;
             this.lblBiografiaPerfil.Location = new System.Drawing.Point(133, 300);
             this.lblBiografiaPerfil.Name = "lblBiografiaPerfil";
-            this.lblBiografiaPerfil.Size = new System.Drawing.Size(0, 24);
+            this.lblBiografiaPerfil.Size = new System.Drawing.Size(0, 25);
             this.lblBiografiaPerfil.TabIndex = 32;
             // 
             // TelaPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL2;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL3;
             this.ClientSize = new System.Drawing.Size(1424, 894);
             this.Controls.Add(this.lblBiografiaPerfil);
             this.Controls.Add(this.btEnviarComentario);

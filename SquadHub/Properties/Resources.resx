@@ -130,11 +130,23 @@
   <data name="PERFIL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PERFIL2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NOVA PUBLICAÇÃO2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVA PUBLICAÇÃO2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONFIGURAÇÕES2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CONFIGURAÇÕES2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CADASTRO PERFIL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CADASTRO PERFIL2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CADASTRE-SE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CADASTRE-SE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PERFIL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PERFIL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ESQUECEU SENHA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ESQUECEU SENHA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aviao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aviao1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,11 +166,23 @@
   <data name="chat-de-video2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chat-de-video2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NOVA PUBLICAÇÃO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVA PUBLICAÇÃO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGIN3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AMIGOS (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AMIGOS (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMIGOS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMIGOS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AMIGOS (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AMIGOS (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +193,23 @@
   <data name="CADASTRO PERFIL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CADASTRO PERFIL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NOVA PUBLICAÇÃO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NOVA PUBLICAÇÃO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="chat-de-video1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chat-de-video1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="LOGIN4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PRINCIPAL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PRINCIPAL1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CADASTRE-SE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CADASTRE-SE2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USUÁRIOS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USUÁRIOS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CRIAR NOVA SENHA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRIAR NOVA SENHA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EDITAR DADOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDITAR DADOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,25 +217,37 @@
   <data name="AMIGOS (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AMIGOS (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PRINCIPAL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRINCIPAL2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="chat-de-video" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chat-de-video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aviao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aviao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LOGIN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGIN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EDITAR DADOS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITAR DADOS1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CONFIGURAÇÃO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CONFIGURAÇÃO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PERFIL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PERFIL3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CADASTRO PERFIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CADASTRO PERFIL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGIN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="USUÁRIOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\USUÁRIOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AMIGOS (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AMIGOS (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LOGIN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGIN2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CADASTRO PERFIL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CADASTRO PERFIL3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

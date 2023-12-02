@@ -41,9 +41,9 @@ namespace SquadHub
             this.btTelaLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btTelaLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btTelaLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btTelaLogin.Location = new System.Drawing.Point(1076, 457);
+            this.btTelaLogin.Location = new System.Drawing.Point(1236, 486);
             this.btTelaLogin.Name = "btTelaLogin";
-            this.btTelaLogin.Size = new System.Drawing.Size(192, 71);
+            this.btTelaLogin.Size = new System.Drawing.Size(85, 104);
             this.btTelaLogin.TabIndex = 1;
             this.btTelaLogin.UseVisualStyleBackColor = false;
             this.btTelaLogin.Click += new System.EventHandler(this.btTelaLogin_Click);
@@ -67,7 +67,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.CONFIGURAÇÕES1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.CONFIGURAÇÕES2;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Controls.Add(this.btTelaLogin);

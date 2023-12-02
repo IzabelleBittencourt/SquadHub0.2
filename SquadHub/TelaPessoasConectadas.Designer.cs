@@ -68,11 +68,11 @@ namespace SquadHub
             this.lblNicknameUsuarios.AutoSize = true;
             this.lblNicknameUsuarios.BackColor = System.Drawing.Color.Transparent;
             this.lblNicknameUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblNicknameUsuarios.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblNicknameUsuarios.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNicknameUsuarios.ForeColor = System.Drawing.Color.White;
-            this.lblNicknameUsuarios.Location = new System.Drawing.Point(501, 224);
+            this.lblNicknameUsuarios.Location = new System.Drawing.Point(488, 221);
             this.lblNicknameUsuarios.Name = "lblNicknameUsuarios";
-            this.lblNicknameUsuarios.Size = new System.Drawing.Size(0, 25);
+            this.lblNicknameUsuarios.Size = new System.Drawing.Size(0, 29);
             this.lblNicknameUsuarios.TabIndex = 4;
             this.lblNicknameUsuarios.Visible = false;
             // 
@@ -105,7 +105,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS__2_1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.USUÁRIOS1;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSolicitarAmizade);
             this.Controls.Add(this.lblNicknameUsuarios);

@@ -197,3 +197,33 @@ C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\
 C:\Users\izaah\OneDrive\Área de Trabalho\PROJETO SQUADHUB\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.genruntimeconfig.cache
 C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaAlterarSenha.resources
 C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPalavraChave.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.exe
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.deps.json
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.runtimeconfig.json
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.runtimeconfig.dev.json
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.dll
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\bin\Debug\netcoreapp3.1\SquadHub.pdb
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.csproj.AssemblyReference.cache
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.Properties.Resources.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaAlterarSenha.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaAmigos.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaCadastro.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaCadastroComplementar.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaChat.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaConfiguracoes.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaEditarDados.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaLogin.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaNotificacoes.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaNovaPublicacao.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPalavraChave.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPerfil.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPessoasConectadas.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaPrincipal.resources
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.csproj.GenerateResource.cache
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.AssemblyInfoInputs.cache
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.AssemblyInfo.cs
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.csproj.CoreCompileInputs.cache
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.dll
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.pdb
+C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.genruntimeconfig.cache

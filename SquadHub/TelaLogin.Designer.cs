@@ -66,11 +66,11 @@ namespace SquadHub
             // 
             this.txtEmailLogin.BackColor = System.Drawing.Color.MediumOrchid;
             this.txtEmailLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEmailLogin.Font = new System.Drawing.Font("Modern No. 20", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEmailLogin.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtEmailLogin.ForeColor = System.Drawing.Color.White;
-            this.txtEmailLogin.Location = new System.Drawing.Point(852, 434);
+            this.txtEmailLogin.Location = new System.Drawing.Point(852, 435);
             this.txtEmailLogin.Name = "txtEmailLogin";
-            this.txtEmailLogin.Size = new System.Drawing.Size(426, 44);
+            this.txtEmailLogin.Size = new System.Drawing.Size(426, 43);
             this.txtEmailLogin.TabIndex = 3;
             // 
             // btEntrar
@@ -109,29 +109,34 @@ namespace SquadHub
             // 
             this.txtSenhaLogin.BackColor = System.Drawing.Color.MediumOrchid;
             this.txtSenhaLogin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSenhaLogin.Font = new System.Drawing.Font("Modern No. 20", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtSenhaLogin.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtSenhaLogin.ForeColor = System.Drawing.Color.White;
-            this.txtSenhaLogin.Location = new System.Drawing.Point(852, 494);
+            this.txtSenhaLogin.Location = new System.Drawing.Point(852, 496);
             this.txtSenhaLogin.Name = "txtSenhaLogin";
-            this.txtSenhaLogin.Size = new System.Drawing.Size(426, 44);
+            this.txtSenhaLogin.Size = new System.Drawing.Size(426, 43);
             this.txtSenhaLogin.TabIndex = 4;
             this.txtSenhaLogin.UseSystemPasswordChar = true;
             // 
             // btEsqueceuSenha
             // 
-            this.btEsqueceuSenha.Location = new System.Drawing.Point(1069, 594);
+            this.btEsqueceuSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btEsqueceuSenha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btEsqueceuSenha.FlatAppearance.BorderSize = 0;
+            this.btEsqueceuSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btEsqueceuSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btEsqueceuSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btEsqueceuSenha.Location = new System.Drawing.Point(1053, 565);
             this.btEsqueceuSenha.Name = "btEsqueceuSenha";
-            this.btEsqueceuSenha.Size = new System.Drawing.Size(209, 23);
+            this.btEsqueceuSenha.Size = new System.Drawing.Size(243, 19);
             this.btEsqueceuSenha.TabIndex = 19;
-            this.btEsqueceuSenha.Text = "Esqueceu a Senha?";
-            this.btEsqueceuSenha.UseVisualStyleBackColor = true;
+            this.btEsqueceuSenha.UseVisualStyleBackColor = false;
             this.btEsqueceuSenha.Click += new System.EventHandler(this.btEsqueceuSenha_Click);
             // 
             // TelaLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.LOGIN1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.LOGIN4;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btEsqueceuSenha);
             this.Controls.Add(this.btMostrarSenhaLogin);

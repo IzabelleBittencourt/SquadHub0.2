@@ -31,77 +31,72 @@ namespace SquadHub
         {
             this.txtPalavraChave = new System.Windows.Forms.TextBox();
             this.btTelaAlterarSenha = new System.Windows.Forms.Button();
-            this.lblMsgEsqueceuSenha = new System.Windows.Forms.Label();
-            this.lblEmail = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.btVoltarTelaLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtPalavraChave
             // 
-            this.txtPalavraChave.Location = new System.Drawing.Point(296, 173);
+            this.txtPalavraChave.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtPalavraChave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPalavraChave.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtPalavraChave.ForeColor = System.Drawing.Color.Black;
+            this.txtPalavraChave.Location = new System.Drawing.Point(520, 546);
             this.txtPalavraChave.Name = "txtPalavraChave";
-            this.txtPalavraChave.Size = new System.Drawing.Size(100, 23);
+            this.txtPalavraChave.Size = new System.Drawing.Size(399, 43);
             this.txtPalavraChave.TabIndex = 0;
             // 
             // btTelaAlterarSenha
             // 
-            this.btTelaAlterarSenha.Location = new System.Drawing.Point(499, 248);
+            this.btTelaAlterarSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btTelaAlterarSenha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btTelaAlterarSenha.FlatAppearance.BorderSize = 0;
+            this.btTelaAlterarSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btTelaAlterarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btTelaAlterarSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btTelaAlterarSenha.Location = new System.Drawing.Point(741, 621);
             this.btTelaAlterarSenha.Name = "btTelaAlterarSenha";
-            this.btTelaAlterarSenha.Size = new System.Drawing.Size(78, 32);
+            this.btTelaAlterarSenha.Size = new System.Drawing.Size(195, 43);
             this.btTelaAlterarSenha.TabIndex = 2;
-            this.btTelaAlterarSenha.Text = "Confirmar";
-            this.btTelaAlterarSenha.UseVisualStyleBackColor = true;
+            this.btTelaAlterarSenha.UseVisualStyleBackColor = false;
             this.btTelaAlterarSenha.Click += new System.EventHandler(this.btTelaAlterarSenha_Click);
-            // 
-            // lblMsgEsqueceuSenha
-            // 
-            this.lblMsgEsqueceuSenha.AutoSize = true;
-            this.lblMsgEsqueceuSenha.Location = new System.Drawing.Point(296, 140);
-            this.lblMsgEsqueceuSenha.Name = "lblMsgEsqueceuSenha";
-            this.lblMsgEsqueceuSenha.Size = new System.Drawing.Size(136, 15);
-            this.lblMsgEsqueceuSenha.TabIndex = 3;
-            this.lblMsgEsqueceuSenha.Text = "Insira sua Palavra Chave:";
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(46, 140);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(91, 15);
-            this.lblEmail.TabIndex = 4;
-            this.lblEmail.Text = "Insira seu Email:";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(46, 173);
+            this.txtEmail.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEmail.Font = new System.Drawing.Font("Modern No. 20", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEmail.ForeColor = System.Drawing.Color.Black;
+            this.txtEmail.Location = new System.Drawing.Point(520, 448);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 23);
+            this.txtEmail.Size = new System.Drawing.Size(399, 40);
             this.txtEmail.TabIndex = 5;
             // 
             // btVoltarTelaLogin
             // 
-            this.btVoltarTelaLogin.Location = new System.Drawing.Point(12, 12);
+            this.btVoltarTelaLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaLogin.FlatAppearance.BorderSize = 0;
+            this.btVoltarTelaLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVoltarTelaLogin.Location = new System.Drawing.Point(501, 248);
             this.btVoltarTelaLogin.Name = "btVoltarTelaLogin";
-            this.btVoltarTelaLogin.Size = new System.Drawing.Size(75, 23);
+            this.btVoltarTelaLogin.Size = new System.Drawing.Size(50, 36);
             this.btVoltarTelaLogin.TabIndex = 6;
-            this.btVoltarTelaLogin.Text = "Voltar";
-            this.btVoltarTelaLogin.UseVisualStyleBackColor = true;
+            this.btVoltarTelaLogin.UseVisualStyleBackColor = false;
             this.btVoltarTelaLogin.Click += new System.EventHandler(this.btVoltarTelaLogin_Click);
             // 
             // TelaPalavraChave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.ESQUECEU_SENHA;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btVoltarTelaLogin);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.lblMsgEsqueceuSenha);
             this.Controls.Add(this.btTelaAlterarSenha);
             this.Controls.Add(this.txtPalavraChave);
             this.Name = "TelaPalavraChave";
-            this.Text = "TelaPalavraChave";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,8 +106,6 @@ namespace SquadHub
 
         private System.Windows.Forms.TextBox txtPalavraChave;
         private System.Windows.Forms.Button btTelaAlterarSenha;
-        private System.Windows.Forms.Label lblMsgEsqueceuSenha;
-        private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Button btVoltarTelaLogin;
     }

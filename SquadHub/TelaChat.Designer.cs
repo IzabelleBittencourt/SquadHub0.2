@@ -106,7 +106,6 @@ namespace SquadHub
             this.Controls.Add(this.pictureBoxFotoPerfilAmigo);
             this.Controls.Add(this.btVoltarTelaAmigos);
             this.Name = "TelaChat";
-            this.Text = "TelaChat";
             this.Load += new System.EventHandler(this.TelaChat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilAmigo)).EndInit();
             this.ResumeLayout(false);
