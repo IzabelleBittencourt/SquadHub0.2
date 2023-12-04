@@ -55,5 +55,7 @@ namespace SquadHub
                 ListaAmigos.Remove(amigoParaRemover);
             }
         }
+
+        public Dictionary<int, List<Mensagem>> MensagensPrivadas { get; set; } = new Dictionary<int, List<Mensagem>>();
     }
 }

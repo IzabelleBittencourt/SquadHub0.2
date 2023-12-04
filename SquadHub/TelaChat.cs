@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace SquadHub
 {
@@ -20,12 +21,15 @@ namespace SquadHub
             usuarioLogado = usuario;
             usuarioLogadoIndex = usuarioIndex;
 
-            conversa = ListaMensagens.Instance.ObterConversa(usuarioLogado, amigo);
-
-            if (conversa == null)
+            if (usuarioLogado.MensagensPrivadas.ContainsKey(amigo.Indice))
             {
                 conversa = new Conversa(amigo);
-                ListaMensagens.Instance.Conversas[$"{usuarioLogado.Indice}-{amigo.Indice}"] = conversa;
+                conversa.Mensagens = usuarioLogado.MensagensPrivadas[amigo.Indice];
+            }
+            else
+            {
+                conversa = new Conversa(amigo);
+                usuarioLogado.MensagensPrivadas[amigo.Indice] = conversa.Mensagens;
             }
         }
 
@@ -47,7 +51,28 @@ namespace SquadHub
                     Remetente = usuarioLogado
                 };
 
-                ListaMensagens.Instance.AdicionarMensagem(usuarioLogado, conversa.Amigo, novaMensagem);
+                if (usuarioLogado != conversa.Amigo)
+                {
+                    conversa.Mensagens.Add(novaMensagem);
+                }
+
+                if (novaMensagem.Remetente != usuarioLogado)
+                {
+                    if (!usuarioLogado.MensagensPrivadas.ContainsKey(conversa.Amigo.Indice))
+                    {
+                        usuarioLogado.MensagensPrivadas[conversa.Amigo.Indice] = new List<Mensagem>();
+                    }
+                    usuarioLogado.MensagensPrivadas[conversa.Amigo.Indice].Add(novaMensagem);
+                }
+
+                if (usuarioLogado != conversa.Amigo)
+                {
+                    if (!conversa.Amigo.MensagensPrivadas.ContainsKey(usuarioLogado.Indice))
+                    {
+                        conversa.Amigo.MensagensPrivadas[usuarioLogado.Indice] = new List<Mensagem>();
+                    }
+                    conversa.Amigo.MensagensPrivadas[usuarioLogado.Indice].Add(novaMensagem);
+                }
 
                 ExibirMensagens();
 
@@ -57,6 +82,16 @@ namespace SquadHub
 
         private void ExibirMensagens()
         {
+            foreach (Control control in this.Controls.OfType<PictureBox>().ToList())
+            {
+                this.Controls.Remove(control);
+            }
+
+            foreach (Control control in this.Controls.OfType<Label>().ToList())
+            {
+                this.Controls.Remove(control);
+            }
+
             int posY = lblNicknameAmigo.Location.Y + lblNicknameAmigo.Height + 10;
 
             foreach (Mensagem mensagem in conversa.Mensagens)
