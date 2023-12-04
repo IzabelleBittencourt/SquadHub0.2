@@ -42,6 +42,7 @@ namespace SquadHub
             // btVoltarTelaPerfil
             // 
             this.btVoltarTelaPerfil.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btVoltarTelaPerfil.FlatAppearance.BorderSize = 0;
             this.btVoltarTelaPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -57,22 +58,22 @@ namespace SquadHub
             // 
             this.txtNome.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNome.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNome.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNome.ForeColor = System.Drawing.Color.Black;
             this.txtNome.Location = new System.Drawing.Point(724, 309);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(354, 43);
+            this.txtNome.Size = new System.Drawing.Size(354, 37);
             this.txtNome.TabIndex = 1;
             // 
             // txtNickname
             // 
             this.txtNickname.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtNickname.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNickname.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtNickname.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtNickname.ForeColor = System.Drawing.Color.Black;
             this.txtNickname.Location = new System.Drawing.Point(724, 398);
             this.txtNickname.Name = "txtNickname";
-            this.txtNickname.Size = new System.Drawing.Size(354, 43);
+            this.txtNickname.Size = new System.Drawing.Size(354, 37);
             this.txtNickname.TabIndex = 2;
             this.txtNickname.TextChanged += new System.EventHandler(this.txtNickname_TextChanged);
             // 
@@ -80,7 +81,7 @@ namespace SquadHub
             // 
             this.txtBio.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtBio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtBio.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtBio.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBio.ForeColor = System.Drawing.Color.Black;
             this.txtBio.Location = new System.Drawing.Point(724, 495);
             this.txtBio.Multiline = true;
@@ -131,7 +132,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.EDITAR_DADOS1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.EDITAR_DADOS2;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarFotoPerfil);
             this.Controls.Add(this.pictureBoxFotoPerfil);
@@ -140,6 +141,7 @@ namespace SquadHub
             this.Controls.Add(this.txtNickname);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.btVoltarTelaPerfil);
+            this.MaximizeBox = false;
             this.Name = "TelaEditarDados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfil)).EndInit();

@@ -133,6 +133,36 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AMIGOS2 {
+            get {
+                object obj = ResourceManager.GetObject("AMIGOS2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AMIGOS3 {
+            get {
+                object obj = ResourceManager.GetObject("AMIGOS3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AMIGOS4 {
+            get {
+                object obj = ResourceManager.GetObject("AMIGOS4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aviao {
             get {
                 object obj = ResourceManager.GetObject("aviao", resourceCulture);
@@ -223,6 +253,26 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CADASTRO_PERFIL4 {
+            get {
+                object obj = ResourceManager.GetObject("CADASTRO PERFIL4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CHAT {
+            get {
+                object obj = ResourceManager.GetObject("CHAT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chat_de_video {
             get {
                 object obj = ResourceManager.GetObject("chat-de-video", resourceCulture);
@@ -246,6 +296,16 @@ namespace SquadHub.Properties {
         internal static System.Drawing.Bitmap chat_de_video2 {
             get {
                 object obj = ResourceManager.GetObject("chat-de-video2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CHAT1 {
+            get {
+                object obj = ResourceManager.GetObject("CHAT1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +383,16 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EDITAR_DADOS2 {
+            get {
+                object obj = ResourceManager.GetObject("EDITAR DADOS2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ESQUECEU_SENHA {
             get {
                 object obj = ResourceManager.GetObject("ESQUECEU SENHA", resourceCulture);
@@ -383,6 +453,16 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NOTIFICAÇÕES {
+            get {
+                object obj = ResourceManager.GetObject("NOTIFICAÇÕES", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NOVA_PUBLICAÇÃO {
             get {
                 object obj = ResourceManager.GetObject("NOVA PUBLICAÇÃO", resourceCulture);
@@ -406,6 +486,26 @@ namespace SquadHub.Properties {
         internal static System.Drawing.Bitmap NOVA_PUBLICAÇÃO2 {
             get {
                 object obj = ResourceManager.GetObject("NOVA PUBLICAÇÃO2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVA_PUBLICAÇÃO3 {
+            get {
+                object obj = ResourceManager.GetObject("NOVA PUBLICAÇÃO3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVA_PUBLICAÇÃO4 {
+            get {
+                object obj = ResourceManager.GetObject("NOVA PUBLICAÇÃO4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,6 +553,36 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PERFIL4 {
+            get {
+                object obj = ResourceManager.GetObject("PERFIL4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PERFIL5 {
+            get {
+                object obj = ResourceManager.GetObject("PERFIL5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PERFIL6 {
+            get {
+                object obj = ResourceManager.GetObject("PERFIL6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PRINCIPAL {
             get {
                 object obj = ResourceManager.GetObject("PRINCIPAL", resourceCulture);
@@ -483,6 +613,36 @@ namespace SquadHub.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PRINCIPAL3 {
+            get {
+                object obj = ResourceManager.GetObject("PRINCIPAL3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PRINCIPAL4 {
+            get {
+                object obj = ResourceManager.GetObject("PRINCIPAL4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SOBRE_NÓS {
+            get {
+                object obj = ResourceManager.GetObject("SOBRE NÓS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap USUÁRIOS {
             get {
                 object obj = ResourceManager.GetObject("USUÁRIOS", resourceCulture);
@@ -496,6 +656,16 @@ namespace SquadHub.Properties {
         internal static System.Drawing.Bitmap USUÁRIOS1 {
             get {
                 object obj = ResourceManager.GetObject("USUÁRIOS1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap USUÁRIOS2 {
+            get {
+                object obj = ResourceManager.GetObject("USUÁRIOS2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

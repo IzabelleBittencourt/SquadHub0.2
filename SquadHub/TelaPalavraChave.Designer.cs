@@ -65,16 +65,17 @@ namespace SquadHub
             // 
             this.txtEmail.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtEmail.Font = new System.Drawing.Font("Modern No. 20", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtEmail.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
             this.txtEmail.Location = new System.Drawing.Point(520, 448);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(399, 40);
+            this.txtEmail.Size = new System.Drawing.Size(399, 43);
             this.txtEmail.TabIndex = 5;
             // 
             // btVoltarTelaLogin
             // 
             this.btVoltarTelaLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btVoltarTelaLogin.FlatAppearance.BorderSize = 0;
             this.btVoltarTelaLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -96,7 +97,9 @@ namespace SquadHub
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btTelaAlterarSenha);
             this.Controls.Add(this.txtPalavraChave);
+            this.MaximizeBox = false;
             this.Name = "TelaPalavraChave";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

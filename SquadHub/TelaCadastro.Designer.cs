@@ -67,7 +67,7 @@ namespace SquadHub
             // 
             this.txtSenha.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSenha.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSenha.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtSenha.ForeColor = System.Drawing.Color.Black;
             this.txtSenha.Location = new System.Drawing.Point(504, 494);
             this.txtSenha.Name = "txtSenha";
@@ -109,7 +109,7 @@ namespace SquadHub
             // 
             this.txtConfirmacaoSenha.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtConfirmacaoSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtConfirmacaoSenha.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtConfirmacaoSenha.ForeColor = System.Drawing.Color.Black;
             this.txtConfirmacaoSenha.Location = new System.Drawing.Point(504, 593);
             this.txtConfirmacaoSenha.Name = "txtConfirmacaoSenha";
@@ -125,7 +125,7 @@ namespace SquadHub
             this.dataNascimentoPicker.CalendarTrailingForeColor = System.Drawing.Color.White;
             this.dataNascimentoPicker.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.dataNascimentoPicker.CustomFormat = "dd/MM/yyyy";
-            this.dataNascimentoPicker.Font = new System.Drawing.Font("Georgia", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dataNascimentoPicker.Font = new System.Drawing.Font("Georgia", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dataNascimentoPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dataNascimentoPicker.Location = new System.Drawing.Point(504, 393);
             this.dataNascimentoPicker.Name = "dataNascimentoPicker";
@@ -168,7 +168,7 @@ namespace SquadHub
             // 
             this.txtPalavraChave.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtPalavraChave.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPalavraChave.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPalavraChave.Font = new System.Drawing.Font("Georgia", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPalavraChave.ForeColor = System.Drawing.Color.Black;
             this.txtPalavraChave.Location = new System.Drawing.Point(504, 696);
             this.txtPalavraChave.Name = "txtPalavraChave";
@@ -191,6 +191,7 @@ namespace SquadHub
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNome);
+            this.MaximizeBox = false;
             this.Name = "TelaCadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaCadastro_Load);

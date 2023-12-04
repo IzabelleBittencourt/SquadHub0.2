@@ -280,7 +280,7 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL3;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.PERFIL6;
             this.ClientSize = new System.Drawing.Size(1424, 894);
             this.Controls.Add(this.lblBiografiaPerfil);
             this.Controls.Add(this.btEnviarComentario);
@@ -300,6 +300,7 @@ namespace SquadHub
             this.Controls.Add(this.lblEmailPerfil);
             this.Controls.Add(this.lblNomePerfil);
             this.Controls.Add(this.btVoltarTelaPrincipal);
+            this.MaximizeBox = false;
             this.Name = "TelaPerfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaPerfil_Load);

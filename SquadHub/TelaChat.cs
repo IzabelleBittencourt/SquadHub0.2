@@ -132,5 +132,10 @@ namespace SquadHub
         {
             ExibirMensagens();
         }
+
+        private void lblNicknameAmigo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

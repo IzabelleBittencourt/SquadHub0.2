@@ -40,6 +40,7 @@ namespace SquadHub
             // btVoltarTelaPalavraChave
             // 
             this.btVoltarTelaPalavraChave.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPalavraChave.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btVoltarTelaPalavraChave.FlatAppearance.BorderSize = 0;
             this.btVoltarTelaPalavraChave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPalavraChave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -91,6 +92,7 @@ namespace SquadHub
             // btMostrarSenha
             // 
             this.btMostrarSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btMostrarSenha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btMostrarSenha.FlatAppearance.BorderSize = 0;
             this.btMostrarSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btMostrarSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -105,6 +107,7 @@ namespace SquadHub
             // btMostrarConfirmacaoSenha
             // 
             this.btMostrarConfirmacaoSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btMostrarConfirmacaoSenha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btMostrarConfirmacaoSenha.FlatAppearance.BorderSize = 0;
             this.btMostrarConfirmacaoSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btMostrarConfirmacaoSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -128,7 +131,9 @@ namespace SquadHub
             this.Controls.Add(this.btConfirmarNovaSenha);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.btVoltarTelaPalavraChave);
+            this.MaximizeBox = false;
             this.Name = "TelaAlterarSenha";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 

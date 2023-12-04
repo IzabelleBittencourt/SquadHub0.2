@@ -105,12 +105,13 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.USUÁRIOS1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.USUÁRIOS2;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSolicitarAmizade);
             this.Controls.Add(this.lblNicknameUsuarios);
             this.Controls.Add(this.pictureBoxFotoPerfilUsuarios);
             this.Controls.Add(this.btVoltarTelaPrincipal);
+            this.MaximizeBox = false;
             this.Name = "TelaPessoasConectadas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaPessoasConectadas_Load);

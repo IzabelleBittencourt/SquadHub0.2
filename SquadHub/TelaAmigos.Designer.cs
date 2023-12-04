@@ -47,7 +47,7 @@ namespace SquadHub
             this.btVoltarTelaPrincipal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(124, 243);
+            this.btVoltarTelaPrincipal.Location = new System.Drawing.Point(123, 125);
             this.btVoltarTelaPrincipal.Name = "btVoltarTelaPrincipal";
             this.btVoltarTelaPrincipal.Size = new System.Drawing.Size(158, 45);
             this.btVoltarTelaPrincipal.TabIndex = 0;
@@ -56,7 +56,7 @@ namespace SquadHub
             // 
             // pictureBoxFotoPerfilAmigos
             // 
-            this.pictureBoxFotoPerfilAmigos.Location = new System.Drawing.Point(407, 92);
+            this.pictureBoxFotoPerfilAmigos.Location = new System.Drawing.Point(417, 147);
             this.pictureBoxFotoPerfilAmigos.Name = "pictureBoxFotoPerfilAmigos";
             this.pictureBoxFotoPerfilAmigos.Size = new System.Drawing.Size(94, 89);
             this.pictureBoxFotoPerfilAmigos.TabIndex = 4;
@@ -69,7 +69,7 @@ namespace SquadHub
             this.lblNicknameAmigos.BackColor = System.Drawing.Color.Transparent;
             this.lblNicknameAmigos.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNicknameAmigos.ForeColor = System.Drawing.Color.White;
-            this.lblNicknameAmigos.Location = new System.Drawing.Point(510, 148);
+            this.lblNicknameAmigos.Location = new System.Drawing.Point(520, 203);
             this.lblNicknameAmigos.Name = "lblNicknameAmigos";
             this.lblNicknameAmigos.Size = new System.Drawing.Size(0, 29);
             this.lblNicknameAmigos.TabIndex = 5;
@@ -86,7 +86,7 @@ namespace SquadHub
             this.btAbrirChat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAbrirChat.ImageIndex = 0;
             this.btAbrirChat.ImageList = this.imageList1;
-            this.btAbrirChat.Location = new System.Drawing.Point(1122, 119);
+            this.btAbrirChat.Location = new System.Drawing.Point(1132, 174);
             this.btAbrirChat.Name = "btAbrirChat";
             this.btAbrirChat.Size = new System.Drawing.Size(47, 36);
             this.btAbrirChat.TabIndex = 6;
@@ -106,13 +106,14 @@ namespace SquadHub
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS1;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS4;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btAbrirChat);
             this.Controls.Add(this.lblNicknameAmigos);
             this.Controls.Add(this.pictureBoxFotoPerfilAmigos);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "TelaAmigos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaAmigos_Load);

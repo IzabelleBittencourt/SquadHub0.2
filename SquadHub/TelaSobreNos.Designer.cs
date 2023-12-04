@@ -34,21 +34,29 @@ namespace SquadHub
             // 
             // btVoltarTelaConfig
             // 
-            this.btVoltarTelaConfig.Location = new System.Drawing.Point(12, 12);
+            this.btVoltarTelaConfig.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaConfig.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btVoltarTelaConfig.FlatAppearance.BorderSize = 0;
+            this.btVoltarTelaConfig.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaConfig.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVoltarTelaConfig.Location = new System.Drawing.Point(262, 117);
             this.btVoltarTelaConfig.Name = "btVoltarTelaConfig";
-            this.btVoltarTelaConfig.Size = new System.Drawing.Size(75, 23);
+            this.btVoltarTelaConfig.Size = new System.Drawing.Size(47, 29);
             this.btVoltarTelaConfig.TabIndex = 0;
-            this.btVoltarTelaConfig.Text = "Voltar";
-            this.btVoltarTelaConfig.UseVisualStyleBackColor = true;
+            this.btVoltarTelaConfig.UseVisualStyleBackColor = false;
             this.btVoltarTelaConfig.Click += new System.EventHandler(this.btVoltarTelaConfig_Click);
             // 
             // TelaSobreNos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::SquadHub.Properties.Resources.SOBRE_NÓS;
+            this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btVoltarTelaConfig);
+            this.MaximizeBox = false;
             this.Name = "TelaSobreNos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
         }

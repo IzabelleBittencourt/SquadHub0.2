@@ -66,12 +66,17 @@ namespace SquadHub
             // 
             // btTelaSobreNos
             // 
-            this.btTelaSobreNos.Location = new System.Drawing.Point(878, 468);
+            this.btTelaSobreNos.BackColor = System.Drawing.Color.Transparent;
+            this.btTelaSobreNos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btTelaSobreNos.FlatAppearance.BorderSize = 0;
+            this.btTelaSobreNos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btTelaSobreNos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btTelaSobreNos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btTelaSobreNos.Location = new System.Drawing.Point(933, 460);
             this.btTelaSobreNos.Name = "btTelaSobreNos";
-            this.btTelaSobreNos.Size = new System.Drawing.Size(74, 87);
+            this.btTelaSobreNos.Size = new System.Drawing.Size(163, 130);
             this.btTelaSobreNos.TabIndex = 3;
-            this.btTelaSobreNos.Text = "Sobre Nós";
-            this.btTelaSobreNos.UseVisualStyleBackColor = true;
+            this.btTelaSobreNos.UseVisualStyleBackColor = false;
             this.btTelaSobreNos.Click += new System.EventHandler(this.btTelaSobreNos_Click);
             // 
             // TelaConfiguracoes
@@ -83,6 +88,7 @@ namespace SquadHub
             this.Controls.Add(this.btTelaSobreNos);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Controls.Add(this.btTelaLogin);
+            this.MaximizeBox = false;
             this.Name = "TelaConfiguracoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaConfiguracoes_Load);

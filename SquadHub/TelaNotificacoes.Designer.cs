@@ -40,6 +40,7 @@ namespace SquadHub
             // btVoltarTelaPrincipal
             // 
             this.btVoltarTelaPrincipal.BackColor = System.Drawing.Color.Transparent;
+            this.btVoltarTelaPrincipal.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btVoltarTelaPrincipal.FlatAppearance.BorderSize = 0;
             this.btVoltarTelaPrincipal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btVoltarTelaPrincipal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -53,7 +54,7 @@ namespace SquadHub
             // 
             // pictureBoxFotoPerfilSolicitacao
             // 
-            this.pictureBoxFotoPerfilSolicitacao.Location = new System.Drawing.Point(326, 168);
+            this.pictureBoxFotoPerfilSolicitacao.Location = new System.Drawing.Point(386, 159);
             this.pictureBoxFotoPerfilSolicitacao.Name = "pictureBoxFotoPerfilSolicitacao";
             this.pictureBoxFotoPerfilSolicitacao.Size = new System.Drawing.Size(94, 89);
             this.pictureBoxFotoPerfilSolicitacao.TabIndex = 1;
@@ -66,7 +67,7 @@ namespace SquadHub
             this.lblNicknameSolicitacao.BackColor = System.Drawing.Color.Transparent;
             this.lblNicknameSolicitacao.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNicknameSolicitacao.ForeColor = System.Drawing.Color.White;
-            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(425, 225);
+            this.lblNicknameSolicitacao.Location = new System.Drawing.Point(485, 216);
             this.lblNicknameSolicitacao.Name = "lblNicknameSolicitacao";
             this.lblNicknameSolicitacao.Size = new System.Drawing.Size(0, 29);
             this.lblNicknameSolicitacao.TabIndex = 2;
@@ -76,7 +77,7 @@ namespace SquadHub
             // 
             this.btAceitarSolicitacaoAmizade.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btAceitarSolicitacaoAmizade.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btAceitarSolicitacaoAmizade.Location = new System.Drawing.Point(923, 227);
+            this.btAceitarSolicitacaoAmizade.Location = new System.Drawing.Point(983, 218);
             this.btAceitarSolicitacaoAmizade.Name = "btAceitarSolicitacaoAmizade";
             this.btAceitarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);
             this.btAceitarSolicitacaoAmizade.TabIndex = 3;
@@ -89,7 +90,7 @@ namespace SquadHub
             // 
             this.btRecusarSolicitacaoAmizade.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btRecusarSolicitacaoAmizade.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btRecusarSolicitacaoAmizade.Location = new System.Drawing.Point(1041, 227);
+            this.btRecusarSolicitacaoAmizade.Location = new System.Drawing.Point(1101, 218);
             this.btRecusarSolicitacaoAmizade.Name = "btRecusarSolicitacaoAmizade";
             this.btRecusarSolicitacaoAmizade.Size = new System.Drawing.Size(89, 28);
             this.btRecusarSolicitacaoAmizade.TabIndex = 4;
@@ -102,13 +103,14 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.AMIGOS__3_;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.NOTIFICAÇÕES;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btRecusarSolicitacaoAmizade);
             this.Controls.Add(this.btAceitarSolicitacaoAmizade);
             this.Controls.Add(this.lblNicknameSolicitacao);
             this.Controls.Add(this.pictureBoxFotoPerfilSolicitacao);
             this.Controls.Add(this.btVoltarTelaPrincipal);
+            this.MaximizeBox = false;
             this.Name = "TelaNotificacoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.TelaNotificacoes_Load);

@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Mateus\\.nuget\\packages\\": {}
+    "C:\\Users\\izaah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateus\\OneDrive\\Documentos\\SquadHub\\SquadHub0.2\\SquadHub\\SquadHub.csproj",
+      "projectUniqueName": "C:\\Users\\izaah\\OneDrive\\Área de Trabalho\\SQUADHUB\\SquadHub0.2\\SquadHub\\SquadHub.csproj",
       "projectName": "SquadHub",
-      "projectPath": "C:\\Users\\Mateus\\OneDrive\\Documentos\\SquadHub\\SquadHub0.2\\SquadHub\\SquadHub.csproj",
-      "packagesPath": "C:\\Users\\Mateus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateus\\OneDrive\\Documentos\\SquadHub\\SquadHub0.2\\SquadHub\\obj\\",
+      "projectPath": "C:\\Users\\izaah\\OneDrive\\Área de Trabalho\\SQUADHUB\\SquadHub0.2\\SquadHub\\SquadHub.csproj",
+      "packagesPath": "C:\\Users\\izaah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\izaah\\OneDrive\\Área de Trabalho\\SQUADHUB\\SquadHub0.2\\SquadHub\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\izaah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

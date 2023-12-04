@@ -105,13 +105,14 @@ namespace SquadHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRO_PERFIL3;
+            this.BackgroundImage = global::SquadHub.Properties.Resources.CADASTRO_PERFIL4;
             this.ClientSize = new System.Drawing.Size(1424, 861);
             this.Controls.Add(this.btSelecionarImagemPerfil);
             this.Controls.Add(this.btCadastrar);
             this.Controls.Add(this.boxFotoPerfil);
             this.Controls.Add(this.txtBiografia);
             this.Controls.Add(this.txtNickname);
+            this.MaximizeBox = false;
             this.Name = "TelaCadastroComplementar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.boxFotoPerfil)).EndInit();

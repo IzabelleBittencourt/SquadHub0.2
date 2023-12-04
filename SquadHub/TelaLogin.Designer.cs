@@ -146,6 +146,7 @@ namespace SquadHub
             this.Controls.Add(this.lblSenhaLogin);
             this.Controls.Add(this.btTelaCad);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "TelaLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
