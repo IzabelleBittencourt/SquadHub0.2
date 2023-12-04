@@ -31,6 +31,7 @@ namespace SquadHub
         {
             this.btTelaLogin = new System.Windows.Forms.Button();
             this.btVoltarTelaPrincipal = new System.Windows.Forms.Button();
+            this.btTelaSobreNos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btTelaLogin
@@ -63,17 +64,27 @@ namespace SquadHub
             this.btVoltarTelaPrincipal.UseVisualStyleBackColor = false;
             this.btVoltarTelaPrincipal.Click += new System.EventHandler(this.btVoltarTelaPrincipal_Click);
             // 
+            // btTelaSobreNos
+            // 
+            this.btTelaSobreNos.Location = new System.Drawing.Point(878, 468);
+            this.btTelaSobreNos.Name = "btTelaSobreNos";
+            this.btTelaSobreNos.Size = new System.Drawing.Size(74, 87);
+            this.btTelaSobreNos.TabIndex = 3;
+            this.btTelaSobreNos.Text = "Sobre Nós";
+            this.btTelaSobreNos.UseVisualStyleBackColor = true;
+            this.btTelaSobreNos.Click += new System.EventHandler(this.btTelaSobreNos_Click);
+            // 
             // TelaConfiguracoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SquadHub.Properties.Resources.CONFIGURAÇÕES2;
             this.ClientSize = new System.Drawing.Size(1424, 861);
+            this.Controls.Add(this.btTelaSobreNos);
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Controls.Add(this.btTelaLogin);
             this.Name = "TelaConfiguracoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Configuracoes";
             this.Load += new System.EventHandler(this.TelaConfiguracoes_Load);
             this.ResumeLayout(false);
 
@@ -82,5 +93,6 @@ namespace SquadHub
         #endregion
         private System.Windows.Forms.Button btTelaLogin;
         private System.Windows.Forms.Button btVoltarTelaPrincipal;
+        private System.Windows.Forms.Button btTelaSobreNos;
     }
 }

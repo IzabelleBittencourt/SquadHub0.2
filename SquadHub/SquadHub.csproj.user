@@ -43,5 +43,8 @@
     <Compile Update="TelaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TelaSobreNos.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

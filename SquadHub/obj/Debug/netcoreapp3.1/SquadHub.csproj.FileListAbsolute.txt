@@ -227,3 +227,4 @@ C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\D
 C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.dll
 C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.pdb
 C:\Users\izaah\OneDrive\Área de Trabalho\squadHub0.4\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.genruntimeconfig.cache
+C:\Users\Mateus\OneDrive\Documentos\SquadHub\SquadHub0.2\SquadHub\obj\Debug\netcoreapp3.1\SquadHub.TelaSobreNos.resources

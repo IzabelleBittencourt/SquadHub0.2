@@ -111,7 +111,6 @@ namespace SquadHub
             this.Controls.Add(this.btVoltarTelaPrincipal);
             this.Name = "TelaNotificacoes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaNotificacoes";
             this.Load += new System.EventHandler(this.TelaNotificacoes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFotoPerfilSolicitacao)).EndInit();
             this.ResumeLayout(false);

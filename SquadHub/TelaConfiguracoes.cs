@@ -38,5 +38,12 @@ namespace SquadHub
         {
 
         }
+
+        private void btTelaSobreNos_Click(object sender, EventArgs e)
+        {
+            TelaSobreNos telaSobreNos = new TelaSobreNos(usuarioLogado, usuarioLogadoIndex);
+            telaSobreNos.Show();
+            this.Hide();
+        }
     }
 }
