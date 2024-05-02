@@ -1,6 +1,7 @@
 # SquadHub
 Projeto para faculdade: 
 > O Squad Hub trata-se de uma rede social voltada para o público gamer;
+> 
 > Os usuários podem fazer seu cadastro e login; alterar seus dados do perfil;
 > Publicar e reagir a publicações de outros usuários por meio de curtidas e comentários;
 > Enviar e aceitar/recusar solicitações de amizade;
